@@ -1,0 +1,109 @@
+.tarja-azul button {
+  height:47.7778px;
+  margin-left: 0px;
+}
+
+
+#perfil button#dropdownPerfil {
+  height:60px;
+  width:20px;
+  border-radius: 60%;
+}
+
+#dropdownGrupoDNA {
+  background-color: transparent;
+  border:none;
+  box-shadow: none;
+  color: #333;
+}
+
+#perfil .dropdown-menu img {
+  width: 60px;
+  float: left;
+  margin: 5px 0;
+}
+
+#perfil .dropdown-menu .user-name-box {
+padding: 0px;
+}
+
+.dropdown-item {
+  width: 100%;
+  text-decoration: none;
+  min-height: 37px;
+}
+
+.dropdown-item span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dropdown-item i + span {
+  padding-left: 5px;
+}
+
+#grupoDna .dropdown-menu,
+#perfil .dropdown-menu {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  border: solid 1px #e1e1e1;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  top: 50px;
+  left: 50%;
+  min-width: 280px;
+}
+
+#grupoDna .dropdown-menu a.dropdown-item,
+#perfil .dropdown-menu a.dropdown-item  {
+  padding: 5px 10px 5px 10px;
+  display:inline-block;
+  float:left;
+  text-decoration: none;
+  color: #404040;
+  font-size: 12px;
+  border-bottom: 0.5px solid #eee;
+  position: relative;
+}
+
+#perfil .dropdown-menu a.dropdown-item.logout-item {
+}
+
+#perfil .dropdown-menu a.dropdown-item.logout-item i {
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#perfil .dropdown-menu a.dropdown-item.logout-item span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 25px;
+}
+
+#perfil .dropdown-menu .dropdown-profile-text {
+  position: absolute;
+  padding-right: 10px;
+  left: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#perfil .dropdown-menu .dropdown-profile-text p {
+  margin: 0;
+}
+
+#perfil .dropdown-menu .dropdown-profile-text a {
+  color: #13f;
+}
+
+#grupoDna .dropdown-menu a:hover,
+#perfil .dropdown-menu a:hover {
+  background-color: #f2f2f2;
+  color: #101010;
+  cursor: pointer;
+}

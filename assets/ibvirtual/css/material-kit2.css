@@ -1,0 +1,4920 @@
+
+body.inverse {
+  fondo: #333333;
+}
+body.inverse, body.inverse .form-control {
+  color: #ffffff;
+}
+body.inverse .modal,
+body.inverse .modal .form-control,
+body.inverse .panel-default,
+body.inverse .panel-default .form-control,
+body.inverse .card,
+body.inverse .card .form-control {
+  background-color: inicial;
+  color: inicial;
+}
+
+.life-of-material-kit {
+  fondo: #FFFFFF;
+}
+
+cuerpo, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  height: 1.5em;
+}
+
+a, a:hover, a:focus {
+  color: #1e9dde;
+}
+a .material-icons, a:hover .material-icons, a:focus .material-icons {
+  vertical-align: center;
+}
+
+/* Animaciones */
+.animación-transición-general, .carousel .carousel-indicator li {
+  -webkit-transition: todos los 300 ms lineales;
+  -moz-transición: todos los 300 ms lineales;
+  -o-transición: todos los 300 ms lineales;
+  -ms-transición: todos los 300 ms lineales;
+  transición: todos los 300 ms lineales;
+}
+
+.animación-transición-lenta {
+  -webkit-transition: todos los 370 ms lineales;
+  -moz-transición: todos los 370 ms lineales;
+  -o-transición: todos los 370 ms lineales;
+  -ms-transición: todos los 370 ms lineales;
+  transición: todos los 370 ms lineales;
+}
+
+.animation-transition-fast, .navbar {
+  -webkit-transition: todos los 150 ms alivian 0s;
+  -moz-transición: todos los 150 ms alivian 0s;
+  -o-transición: todos los 150 ms alivian 0s;
+  -ms-transition: todos los 150ms alivian 0s;
+  transición: todos los 150 ms alivian 0s;
+}
+
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+border-top: 0;
+}
+.form-horizontal .radio {
+  margin-bottom: 10px;
+}
+.form-horizontal label {
+  text-align: right;
+}
+.form-horizontal label.control-label {
+  margen: 0;
+}
+
+.btn,
+.navbar .navbar-nav> li> a.btn {
+  borde: ninguno;
+  radio de borde: 3px;
+  posición: relativa;
+  acolchado: 12px 30px;
+  margen: 10px 1px;
+  tamaño de fuente: 12px;
+  peso de fuente: 400;
+  transformación de texto: mayúscula;
+  espacio entre letras: 0;
+  will-change: box-shadow, transform;
+  transición: box-shadow 0.2s cubic-bezier (0.4, 0, 1, 1), color de fondo 0.2s cubic-bezier (0.4, 0, 0.2, 1);
+}
+.btn :: - moz-focus-inner,
+.navbar .navbar-nav> li> a.btn :: - moz-focus-inner {
+  borde: 0;
+}
+.btn, .btn.btn-default,
+.navbar .navbar-nav> li> a.btn,
+.navbar .navbar-nav> li> a.btn.btn-default {
+  box-shadow: 0 2px 2px 0 rgba (153, 153, 153, 0.14), 0 3px 1px -2px rgba (153, 153, 153, 0.2), 0 1px 5px 0 rgba (153, 153, 153, 0.12);
+}
+.btn, .btn: hover, .btn: focus, .btn: active, .btn.active, .btn: active: focus, .btn: active: hover, .btn.active: focus, .btn.active: hover , .open> .btn.dropdown-toggle, .open> .btn.dropdown-toggle: focus, .open> .btn.dropdown-toggle: hover, .btn.btn-default, .btn.btn-default: hover , .btn.btn-default: focus, .btn.btn-default: active, .btn.btn-default.active, .btn.btn-default: active: focus, .btn.btn-default: active: hover, .btn.btn-default.active: focus, .btn.btn-default.active: hover, .open> .btn.btn-default.dropdown-toggle, .open> .btn.btn-default.dropdown-toggle: focus, .open> .btn.btn-default.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn,
+.navbar .navbar-nav> li> a.btn: hover,
+.navbar .navbar-nav> li> a.btn: foco,
+.navbar .navbar-nav> li> a.btn: activo,
+.navbar .navbar-nav> li> a.btn.active,
+.navbar .navbar-nav> li> a.btn: activo: foco,
+.navbar .navbar-nav> li> a.btn: active: hover,
+.navbar .navbar-nav> li> a.btn.active: foco,
+.navbar .navbar-nav> li> a.btn.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.dropdown-toggle: foco, .open>
+.navbar .navbar-nav> li> a.btn.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-default,
+.navbar .navbar-nav> li> a.btn.btn-default: hover,
+.navbar .navbar-nav> li> a.btn.btn-default: foco,
+.navbar .navbar-nav> li> a.btn.btn-default: activo,
+.navbar .navbar-nav> li> a.btn.btn-default.active,
+.navbar .navbar-nav> li> a.btn.btn-default: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-default: activo: hover,
+.navbar .navbar-nav> li> a.btn.btn-default.active: foco,
+.navbar .navbar-nav> li> a.btn.btn-default.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-default.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-default.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-default.dropdown-toggle: hover {
+  color de fondo: # 999999;
+  color: #FFFFFF;
+}
+.btn: focus, .btn: active, .btn: hover, .btn.btn-default: focus, .btn.btn-default: active, .btn.btn-default: hover,
+.navbar .navbar-nav> li> a.btn: foco,
+.navbar .navbar-nav> li> a.btn: activo,
+.navbar .navbar-nav> li> a.btn: hover,
+.navbar .navbar-nav> li> a.btn.btn-default: foco,
+.navbar .navbar-nav> li> a.btn.btn-default: activo,
+.navbar .navbar-nav> li> a.btn.btn-default: hover {
+  box-shadow: 0 14px 26px -12px rgba (153, 153, 153, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (153, 153, 153, 0.2) ;
+}
+.btn.disabled, .btn.disabled: hover, .btn.disabled: focus, .btn.disabled.focus, .btn.disabled: active, .btn.disabled.active, .btn: disabled, .btn: disabled: pase el mouse, .btn: disabled: focus, .btn: disabled.focus, .btn: disabled: active, .btn: disabled.active, .btn [disabled], .btn [disabled]: hover, .btn [disabled]: focus, .btn [disabled] .focus, .btn [disabled]: activo, .btn [disabled] .active, fieldset [disabled] .btn, fieldset [disabled] .btn: hover, fieldset [disabled] .btn: focus , fieldset [disabled] .btn.focus, fieldset [disabled] .btn: activo, fieldset [disabled] .btn.active, .btn.btn-default.disabled, .btn.btn-default.disabled: hover, .btn .btn-default.disabled: focus, .btn.btn-default.disabled.focus, .btn.btn-default.disabled: active, .btn.btn-default.disabled.active, .btn.btn-default: disabled , .btn.btn-default: disabled: hover, .btn.btn-default: disabled: focus, .btn.btn-default:disabled.focus, .btn.btn-default: disabled: active, .btn.btn-default: disabled.active, .btn.btn-default [disabled], .btn.btn-default [disabled]: hover, .btn .btn-default [deshabilitado]: foco, .btn.btn-default [deshabilitado] .focus, .btn.btn-default [deshabilitado]: activo, .btn.btn-default [deshabilitado] .active, fieldset [deshabilitado] .btn.btn-default, fieldset [disabled] .btn.btn-default: hover, fieldset [disabled] .btn.btn-default: focus, fieldset [disabled] .btn.btn-default.focus, fieldset [disabled] .btn.btn-default: activo, conjunto de campos [deshabilitado] .btn.btn-default.active,fieldset [disabled] .btn.btn-default: hover, fieldset [disabled] .btn.btn-default: focus, fieldset [disabled] .btn.btn-default.focus, fieldset [disabled] .btn.btn-default: activo, conjunto de campos [deshabilitado] .btn.btn-default.active,fieldset [disabled] .btn.btn-default: hover, fieldset [disabled] .btn.btn-default: focus, fieldset [disabled] .btn.btn-default.focus, fieldset [disabled] .btn.btn-default: activo, conjunto de campos [deshabilitado] .btn.btn-default.active,
+.navbar .navbar-nav> li> a.btn.disabled,
+.navbar .navbar-nav> li> a.btn.disabled: hover,
+.navbar .navbar-nav> li> a.btn.disabled: foco,
+.navbar .navbar-nav> li> a.btn.disabled.focus,
+.navbar .navbar-nav> li> a.btn.disabled: activo,
+.navbar .navbar-nav> li> a.btn.disabled.active,
+.navbar .navbar-nav> li> a.btn: deshabilitado,
+.navbar .navbar-nav> li> a.btn: disabled: hover,
+.navbar .navbar-nav> li> a.btn: disabled: foco,
+.navbar .navbar-nav> li> a.btn: disabled.focus,
+.navbar .navbar-nav> li> a.btn: disabled: activo,
+.navbar .navbar-nav> li> a.btn: disabled.active,
+.navbar .navbar-nav> li> a.btn [deshabilitado],
+.navbar .navbar-nav> li> a.btn [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn [deshabilitado] .focus,
+.navbar .navbar-nav> li> a.btn [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn [deshabilitado] .active, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn: foco, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.active,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-default.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-default: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-default: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-default: deshabilitado: foco,
+.navbar .navbar-nav> li> a.btn.btn-default: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-default: deshabilitado: activo,
+.navbar .navbar-nav> li> a.btn.btn-default: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-default [deshabilitado] .active, fieldset [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-default, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-default: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-default: foco, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-default.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-default: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-default.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-simple, .btn.btn-default.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-default.btn-simple {
+  color de fondo: transparente;
+  color: # 999999;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-simple: hover, .btn.btn-simple: focus, .btn.btn-simple: active, .btn.btn-default.btn-simple: hover, .btn.btn-default.btn-simple : foco, .btn.btn-default.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-default.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-default.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-default.btn-simple: active {
+  color de fondo: transparente;
+  color: # 999999;
+}
+.btn.btn-primary,
+.navbar .navbar-nav> li> a.btn.btn-primary {
+  sombra de cuadro: 0 2px 2px 0 rgba (156, 39, 176, 0.14), 0 3px 1px -2px rgba (156, 39, 176, 0.2), 0 1px 5px 0 rgba (156, 39, 176, 0.12);
+}
+.btn.btn-primary, .btn.btn-primary: hover, .btn.btn-primary: focus, .btn.btn-primary: activo, .btn.btn-primary.active, .btn.btn-primary: active: focus, .btn.btn-primary: active: hover, .btn.btn-primary.active: focus, .btn.btn-primary.active: hover, .open> .btn.btn-primary.dropdown-toggle , .open> .btn.btn-primary.dropdown-toggle: focus, .open> .btn.btn-primary.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary,
+.navbar .navbar-nav> li> a.btn.btn-primary: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary.active,
+.navbar .navbar-nav> li> a.btn.btn-primary: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary: activo: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary.active: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-primary.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-primary.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-primary.dropdown-toggle: hover {
+  color de fondo: # 1e9dde;
+  color: #FFFFFF;
+}
+.btn.btn-primary: foco, .btn.btn-primary: activo, .btn.btn-primary: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary: hover {
+  box-shadow: 0 14px 26px -12px rgba (156, 39, 176, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (156, 39, 176, 0.2) ;
+}
+.btn.btn-primary.disabled, .btn.btn-primary.disabled: hover, .btn.btn-primary.disabled: focus, .btn.btn-primary.disabled.focus, .btn.btn-primary.disabled : activo, .btn.btn-primary.disabled.active, .btn.btn-primary: deshabilitado, .btn.btn-primary: disabled: hover, .btn.btn-primary: disabled: focus, .btn.btn- primary: disabled.focus, .btn.btn-primary: disabled: active, .btn.btn-primary: disabled.active, .btn.btn-primary [disabled], .btn.btn-primary [disabled]: desplace, .btn.btn-primary [desactivado]: foco, .btn.btn-primary [desactivado] .focus, .btn.btn-primary [desactivado]: activo, .btn.btn-primary [desactivado] .active, fieldset [ disabled] .btn.btn-primary, fieldset [disabled] .btn.btn-primary: hover, fieldset [disabled] .btn.btn-primary: focus, fieldset [disabled] .btn.btn-primary.focus, fieldset [ disabled] .btn.btn-primary: activo, conjunto de campos [disabled] .btn.btn-primary.active,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-primary: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-primary: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary: deshabilitado: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-primary: deshabilitado: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-primary [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-primary [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary [desactivado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-primary [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary [desactivado] .active, conjunto de campos [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-primary, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-primary: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-primary: foco, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-primary.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-primary: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-primary.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-primary.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-primary.btn-simple {
+  color de fondo: transparente;
+  color: # 1e9dde;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-primary.btn-simple: hover, .btn.btn-primary.btn-simple: foco, .btn.btn-primary.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-primary.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-primary.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-primary.btn-simple: active {
+  color de fondo: transparente;
+  color: # 1e9dde;
+}
+.btn.btn-info,
+.navbar .navbar-nav> li> a.btn.btn-info {
+  box-shadow: 0 2px 2px 0 rgba (3, 169, 244, 0.14), 0 3px 1px -2px rgba (3, 169, 244, 0.2), 0 1px 5px 0 rgba (3, 169, 244, 0.12);
+}
+.btn.btn-info, .btn.btn-info: hover, .btn.btn-info: focus, .btn.btn-info: active, .btn.btn-info.active, .btn.btn-info: active: focus, .btn.btn-info: active: hover, .btn.btn-info.active: focus, .btn.btn-info.active: hover, .open> .btn.btn-info.dropdown-toggle , .open> .btn.btn-info.dropdown-toggle: focus, .open> .btn.btn-info.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-info,
+.navbar .navbar-nav> li> a.btn.btn-info: hover,
+.navbar .navbar-nav> li> a.btn.btn-info: foco,
+.navbar .navbar-nav> li> a.btn.btn-info: activo,
+.navbar .navbar-nav> li> a.btn.btn-info.active,
+.navbar .navbar-nav> li> a.btn.btn-info: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-info: active: hover,
+.navbar .navbar-nav> li> a.btn.btn-info.active: foco,
+.navbar .navbar-nav> li> a.btn.btn-info.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-info.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-info.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-info.dropdown-toggle: hover {
+  color de fondo: # 03a9f4;
+  color: #FFFFFF;
+}
+.btn.btn-info: foco, .btn.btn-info: activo, .btn.btn-info: hover,
+.navbar .navbar-nav> li> a.btn.btn-info: foco,
+.navbar .navbar-nav> li> a.btn.btn-info: activo,
+.navbar .navbar-nav> li> a.btn.btn-info: hover {
+  box-shadow: 0 14px 26px -12px rgba (3, 169, 244, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (3, 169, 244, 0.2) ;
+}
+.btn.btn-info.disabled, .btn.btn-info.disabled: hover, .btn.btn-info.disabled: focus, .btn.btn-info.disabled.focus, .btn.btn-info.disabled : activo, .btn.btn-info.disabled.active, .btn.btn-info: disabled, .btn.btn-info: disabled: hover, .btn.btn-info: disabled: focus, .btn.btn- info: disabled.focus, .btn.btn-info: disabled: activo, .btn.btn-info: disabled.active, .btn.btn-info [disabled], .btn.btn-info [disabled]: desplace, .btn.btn-info [deshabilitado]: foco, .btn.btn-info [deshabilitado] .focus, .btn.btn-info [deshabilitado]: activo, .btn.btn-info [deshabilitado] .active, fieldset [ disabled] .btn.btn-info, fieldset [disabled] .btn.btn-info: hover, fieldset [disabled] .btn.btn-info: focus, fieldset [disabled] .btn.btn-info.focus, fieldset [ disabled] .btn.btn-info: activo, conjunto de campos [disabled] .btn.btn-info.active,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-info.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-info: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-info: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-info: deshabilitado: foco,
+.navbar .navbar-nav> li> a.btn.btn-info: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-info: deshabilitado: activo,
+.navbar .navbar-nav> li> a.btn.btn-info: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-info [deshabilitado] .active, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-info, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-info: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-info: foco, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-info.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-info: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-info.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-info.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-info.btn-simple {
+  color de fondo: transparente;
+  color: # 03a9f4;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-info.btn-simple: hover, .btn.btn-info.btn-simple: foco, .btn.btn-info.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-info.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-info.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-info.btn-simple: activo {
+  color de fondo: transparente;
+  color: # 03a9f4;
+}
+.btn.btn-success,
+.navbar .navbar-nav> li> a.btn.btn-success {
+  box-shadow: 0 2px 2px 0 rgba (76, 175, 80, 0.14), 0 3px 1px -2px rgba (76, 175, 80, 0.2), 0 1px 5px 0 rgba (76, 175, 80, 0.12);
+}
+.btn.btn-success, .btn.btn-success: hover, .btn.btn-success: focus, .btn.btn-success: active, .btn.btn-success.active, .btn.btn-success: active: focus, .btn.btn-success: active: hover, .btn.btn-success.active: focus, .btn.btn-success.active: hover, .open> .btn.btn-success.dropdown-toggle , .open> .btn.btn-success.dropdown-toggle: focus, .open> .btn.btn-success.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-success,
+.navbar .navbar-nav> li> a.btn.btn-success: hover,
+.navbar .navbar-nav> li> a.btn.btn-success: foco,
+.navbar .navbar-nav> li> a.btn.btn-success: activo,
+.navbar .navbar-nav> li> a.btn.btn-success.active,
+.navbar .navbar-nav> li> a.btn.btn-success: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-success: active: hover,
+.navbar .navbar-nav> li> a.btn.btn-success.active: focus,
+.navbar .navbar-nav> li> a.btn.btn-success.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-success.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-success.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-success.dropdown-toggle: hover {
+  color de fondo: # 4caf50;
+  color: #FFFFFF;
+}
+.btn.btn-success: foco, .btn.btn-success: activo, .btn.btn-success: hover,
+.navbar .navbar-nav> li> a.btn.btn-success: foco,
+.navbar .navbar-nav> li> a.btn.btn-success: activo,
+.navbar .navbar-nav> li> a.btn.btn-success: hover {
+  box-shadow: 0 14px 26px -12px rgba (76, 175, 80, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (76, 175, 80, 0.2) ;
+}
+.btn.btn-success.disabled, .btn.btn-success.disabled: hover, .btn.btn-success.disabled: focus, .btn.btn-success.disabled.focus, .btn.btn-success.disabled : activo, .btn.btn-success.disabled.active, .btn.btn-success: disabled, .btn.btn-success: disabled: hover, .btn.btn-success: disabled: focus, .btn.btn- success: disabled.focus, .btn.btn-success: disabled: active, .btn.btn-success: disabled.active, .btn.btn-success [disabled], .btn.btn-success [disabled]: desplace, .btn.btn-success [deshabilitado]: foco, .btn.btn-success [deshabilitado] .focus, .btn.btn-success [deshabilitado]: activo, .btn.btn-success [deshabilitado] .active, fieldset [ disabled] .btn.btn-success, fieldset [disabled] .btn.btn-success: hover, fieldset [disabled] .btn.btn-success: focus, fieldset [disabled] .btn.btn-success.focus, fieldset [ disabled] .btn.btn-success: activo, conjunto de campos [disabled] .btn.btn-success.active,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-success.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-success: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-success: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-success: disabled: focus,
+.navbar .navbar-nav> li> a.btn.btn-success: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-success: disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-success: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-success [deshabilitado] .active, fieldset [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-success, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-success: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-success: focus, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-success.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-success: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-success.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-success.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-success.btn-simple {
+  color de fondo: transparente;
+  color: # 4caf50;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-success.btn-simple: hover, .btn.btn-success.btn-simple: foco, .btn.btn-success.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-success.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-success.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-success.btn-simple: active {
+  color de fondo: transparente;
+  color: # 4caf50;
+}
+.btn.btn-warning,
+.navbar .navbar-nav> li> a.btn.btn-warning {
+  box-shadow: 0 2px 2px 0 rgba (251, 192, 45, 0.14), 0 3px 1px -2px rgba (251, 192, 45, 0.2), 0 1px 5px 0 rgba (251, 192, 45, 0.12);
+}
+.btn.btn-warning, .btn.btn-warning: hover, .btn.btn-warning: focus, .btn.btn-warning: active, .btn.btn-warning.active, .btn.btn-warning: active: focus, .btn.btn-warning: active: hover, .btn.btn-warning.active: focus, .btn.btn-warning.active: hover, .open> .btn.btn-warning.dropdown-toggle , .open> .btn.btn-warning.dropdown-toggle: focus, .open> .btn.btn-warning.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning,
+.navbar .navbar-nav> li> a.btn.btn-warning: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning: foco,
+.navbar .navbar-nav> li> a.btn.btn-warning: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning.active,
+.navbar .navbar-nav> li> a.btn.btn-warning: active: focus,
+.navbar .navbar-nav> li> a.btn.btn-warning: active: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning.active: focus,
+.navbar .navbar-nav> li> a.btn.btn-warning.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-warning.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-warning.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-warning.dropdown-toggle: hover {
+  color de fondo: # fbc02d;
+  color: #FFFFFF;
+}
+.btn.btn-warning: focus, .btn.btn-warning: active, .btn.btn-warning: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning: foco,
+.navbar .navbar-nav> li> a.btn.btn-warning: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning: hover {
+  box-shadow: 0 14px 26px -12px rgba (251, 192, 45, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (251, 192, 45, 0.2) ;
+}
+.btn.btn-warning.disabled, .btn.btn-warning.disabled: hover, .btn.btn-warning.disabled: focus, .btn.btn-warning.disabled.focus, .btn.btn-warning.disabled : activo, .btn.btn-warning.disabled.active, .btn.btn-warning: disabled, .btn.btn-warning: disabled: hover, .btn.btn-warning: disabled: focus, .btn.btn- warning: disabled.focus, .btn.btn-warning: disabled: active, .btn.btn-warning: disabled.active, .btn.btn-warning [disabled], .btn.btn-warning [disabled]: desplace, .btn.btn-warning [disabled]: foco, .btn.btn-warning [disabled] .focus, .btn.btn-warning [disabled]: active, .btn.btn-warning [disabled] .active, fieldset [ disabled] .btn.btn-warning, fieldset [disabled] .btn.btn-warning: hover, fieldset [disabled] .btn.btn-warning: focus, fieldset [disabled] .btn.btn-warning.focus, fieldset [ disabled] .btn.btn-warning: activo, conjunto de campos [disabled] .btn.btn-warning.active,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-warning: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-warning: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning: disabled: focus,
+.navbar .navbar-nav> li> a.btn.btn-warning: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-warning: disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-warning [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-warning [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning [desactivado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-warning [desactivado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-warning [desactivado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning [disabled] .active, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-warning, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-warning: hover, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-warning: focus, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-warning.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-warning: active, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-warning.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-warning.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-warning.btn-simple {
+  color de fondo: transparente;
+  color: # fbc02d;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-warning.btn-simple: hover, .btn.btn-warning.btn-simple: foco, .btn.btn-warning.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-warning.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-warning.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-warning.btn-simple: active {
+  color de fondo: transparente;
+  color: # fbc02d;
+}
+.btn.btn-danger,
+.navbar .navbar-nav> li> a.btn.btn-danger {
+  box-shadow: 0 2px 2px 0 rgba (244, 67, 54, 0.14), 0 3px 1px -2px rgba (244, 67, 54, 0.2), 0 1px 5px 0 rgba (244, 67, 54, 0.12);
+}
+.btn.btn-danger, .btn.btn-danger: hover, .btn.btn-danger: focus, .btn.btn-danger: active, .btn.btn-danger.active, .btn.btn-danger: active: focus, .btn.btn-danger: active: hover, .btn.btn-danger.active: focus, .btn.btn-danger.active: hover, .open> .btn.btn-danger.dropdown-toggle , .open> .btn.btn-danger.dropdown-toggle: focus, .open> .btn.btn-danger.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger,
+.navbar .navbar-nav> li> a.btn.btn-danger: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger.active,
+.navbar .navbar-nav> li> a.btn.btn-danger: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger: active: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger.active: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-danger.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-danger.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-danger.dropdown-toggle: hover {
+  color de fondo: # f44336;
+  color: #FFFFFF;
+}
+.btn.btn-danger: foco, .btn.btn-danger: activo, .btn.btn-danger: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger: hover {
+  box-shadow: 0 14px 26px -12px rgba (244, 67, 54, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (244, 67, 54, 0.2) ;
+}
+.btn.btn-danger.disabled, .btn.btn-danger.disabled: hover, .btn.btn-danger.disabled: focus, .btn.btn-danger.disabled.focus, .btn.btn-danger.disabled : activo, .btn.btn-danger.disabled.active, .btn.btn-danger: deshabilitado, .btn.btn-danger: disabled: hover, .btn.btn-danger: disabled: focus, .btn.btn- danger: disabled.focus, .btn.btn-danger: disabled: active, .btn.btn-danger: disabled.active, .btn.btn-danger [disabled], .btn.btn-danger [disabled]: desplace, .btn.btn-danger [desactivado]: foco, .btn.btn-danger [desactivado] .focus, .btn.btn-danger [desactivado]: activo, .btn.btn-danger [desactivado] .active, fieldset [ disabled] .btn.btn-danger, fieldset [disabled] .btn.btn-danger: hover, fieldset [disabled] .btn.btn-danger: focus, fieldset [disabled] .btn.btn-danger.focus, fieldset [ disabled] .btn.btn-danger: activo, conjunto de campos [disabled] .btn.btn-danger.active,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-danger: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-danger: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger: desactivado: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-danger: deshabilitado: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-danger [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-danger [deshabilitado]: desplazarse,
+.navbar .navbar-nav> li> a.btn.btn-danger [desactivado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger [desactivado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-danger [desactivado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger [desactivado] .active, conjunto de campos [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-danger, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-danger: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-danger: focus, fieldset [disabled]
+.navbar .navbar-nav> li> a.btn.btn-danger.focus, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-danger: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-danger.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-danger.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-danger.btn-simple {
+  color de fondo: transparente;
+  color: # f44336;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-danger.btn-simple: hover, .btn.btn-danger.btn-simple: foco, .btn.btn-danger.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-danger.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-danger.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-danger.btn-simple: active {
+  color de fondo: transparente;
+  color: # f44336;
+}
+.btn.btn-upgrade,
+.navbar .navbar-nav> li> a.btn.btn-upgrade {
+  box-shadow: 0 2px 2px 0 rgba (233, 30, 99, 0.14), 0 3px 1px -2px rgba (233, 30, 99, 0.2), 0 1px 5px 0 rgba (233, 30, 99, 0.12);
+}
+.btn.btn-upgrade, .btn.btn-upgrade: hover, .btn.btn-upgrade: focus, .btn.btn-upgrade: active, .btn.btn-upgrade.active, .btn.btn-upgrade: active: focus, .btn.btn-upgrade: active: hover, .btn.btn-upgrade.active: focus, .btn.btn-upgrade.active: hover, .open> .btn.btn-upgrade.dropdown-toggle , .open> .btn.btn-upgrade.dropdown-toggle: focus, .open> .btn.btn-upgrade.dropdown-toggle: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.active,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: activo: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: active: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.active: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.active: hover, .open>
+.navbar .navbar-nav> li> a.btn.btn-upgrade.dropdown-toggle, .open>
+.navbar .navbar-nav> li> a.btn.btn-upgrade.dropdown-toggle: focus, .open>
+.navbar .navbar-nav> li> a.btn.btn-upgrade.dropdown-toggle: hover {
+  color de fondo: # e91e63;
+  color: #FFFFFF;
+}
+.btn.btn-upgrade: foco, .btn.btn-upgrade: activo, .btn.btn-upgrade: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: hover {
+  box-shadow: 0 14px 26px -12px rgba (233, 30, 99, 0.42), 0 4px 23px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (233, 30, 99, 0.2) ;
+}
+.btn.btn-upgrade.disabled, .btn.btn-upgrade.disabled: hover, .btn.btn-upgrade.disabled: focus, .btn.btn-upgrade.disabled.focus, .btn.btn-upgrade.disabled : activo, .btn.btn-upgrade.disabled.active, .btn.btn-upgrade: disabled, .btn.btn-upgrade: disabled: hover, .btn.btn-upgrade: disabled: focus, .btn.btn- upgrade: disabled.focus, .btn.btn-upgrade: disabled: active, .btn.btn-upgrade: disabled.active, .btn.btn-upgrade [disabled], .btn.btn-upgrade [disabled]: desplace, .btn.btn-upgrade [deshabilitado]: foco, .btn.btn-upgrade [deshabilitado] .focus, .btn.btn-upgrade [deshabilitado]: activo, .btn.btn-upgrade [deshabilitado] .active, fieldset [ disabled] .btn.btn-upgrade, fieldset [disabled] .btn.btn-upgrade: hover, fieldset [disabled] .btn.btn-upgrade: focus, fieldset [disabled] .btn.btn-upgrade.focus, fieldset [ disabled] .btn.btn-upgrade: activo, conjunto de campos [disabled] .btn.btn-upgrade.active,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: deshabilitado,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: disabled: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: disabled: focus,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: disabled.focus,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: deshabilitado: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade: disabled.active,
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado],
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado]: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado]: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado] .focus,
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado]: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade [deshabilitado] .active, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade: hover, fieldset [desactivado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade: foco, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade.focus, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade: activo, conjunto de campos [deshabilitado]
+.navbar .navbar-nav> li> a.btn.btn-upgrade.active {
+  cuadro-sombra: ninguno;
+}
+.btn.btn-upgrade.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.btn-simple {
+  color de fondo: transparente;
+  color: # e91e63;
+  cuadro-sombra: ninguno;
+}
+.btn.btn-upgrade.btn-simple: hover, .btn.btn-upgrade.btn-simple: foco, .btn.btn-upgrade.btn-simple: activo,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.btn-simple: hover,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.btn-simple: foco,
+.navbar .navbar-nav> li> a.btn.btn-upgrade.btn-simple: active {
+  color de fondo: transparente;
+  color: # e91e63;
+}
+.btn.btn-white, .btn.btn-white: foco, .btn.btn-white: hover,
+.navbar .navbar-nav> li> a.btn.btn-white,
+.navbar .navbar-nav> li> a.btn.btn-white: foco,
+.navbar .navbar-nav> li> a.btn.btn-white: hover {
+  color de fondo: #FFFFFF;
+  color: # 999999;
+}
+.btn.btn-white.btn-simple,
+.navbar .navbar-nav> li> a.btn.btn-white.btn-simple {
+  color: #FFFFFF;
+  fondo: transparente;
+  cuadro-sombra: ninguno;
+}
+.btn: foco, .btn: activo, .btn: activo: foco,
+.navbar .navbar-nav> li> a.btn: foco,
+.navbar .navbar-nav> li> a.btn: activo,
+.navbar .navbar-nav> li> a.btn: active: focus {
+  esquema: 0;
+}
+.btn.btn-round,
+.navbar .navbar-nav> li> a.btn.btn-round {
+  radio de borde: 30px;
+}
+.btn: no (.btn-just-icon): no (.btn-fab) .fas,
+.navbar .navbar-nav> li> a.btn: not (.btn-just-icon): not (.btn-fab) .fas {
+  tamaño de fuente: 18px;
+  margen superior: -2px;
+  posición: relativa;
+  arriba: 2px;
+}
+.btn.btn-fab,
+.navbar .navbar-nav> li> a.btn.btn-fab {
+  radio de borde: 50%;
+  tamaño de fuente: 24px;
+  altura: 56 px;
+  margen: auto;
+  ancho min: 56px;
+  ancho: 56 px;
+  relleno: 0;
+  desbordamiento: oculto;
+  posición: relativa;
+  altura de línea: normal;
+}
+.btn.btn-fab .ripple-container,
+.navbar .navbar-nav> li> a.btn.btn-fab .ripple-container {
+  radio de borde: 50%;
+}
+.btn.btn-fab.btn-fab-mini, .btn-group-sm .btn.btn-fab,
+.navbar .navbar-nav> li> a.btn.btn-fab.btn-fab-mini, .btn-group-sm
+.navbar .navbar-nav> li> a.btn.btn-fab {
+  altura: 40px;
+  ancho min: 40px;
+  ancho: 40px;
+}
+.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm .btn.btn-fab.material-icons,
+.navbar .navbar-nav> li> a.btn.btn-fab.btn-fab-mini.material-icons, .btn-group-sm
+.navbar .navbar-nav> li> a.btn.btn-fab.material-icons {
+  arriba: -3.5px;
+  izquierda: -3.5px;
+}
+.btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm .btn.btn-fab .material-icons,
+.navbar .navbar-nav> li> a.btn.btn-fab.btn-fab-mini .material-icons, .btn-group-sm
+.navbar .navbar-nav> li> a.btn.btn-fab .material-icons {
+  tamaño de fuente: 17px;
+}
+.btn.btn-fab i.material-icons,
+.navbar .navbar-nav> li> a.btn.btn-fab i.material-icons {
+  posición: absoluta;
+  arriba: 50%;
+  izquierda: 50%;
+  transformar: traducir (-12px, -12px);
+  altura de línea: 24 px;
+  ancho: 24px;
+  tamaño de fuente: 24px;
+}
+.btn.btn-lg, .btn-group-lg .btn,
+.navbar .navbar-nav> li> a.btn.btn-lg, .btn-group-lg
+.navbar .navbar-nav> li> a.btn {
+  tamaño de fuente: 14px;
+  acolchado: 18px 36px;
+}
+.btn.btn-sm, .btn-group-sm .btn, .navbar .navbar-nav> li> a.btn.btn-sm, .btn-group-sm .navbar .navbar-nav> li> a. btn {
+    acolchado: 21px 20px;
+    tamaño de fuente: 10px;
+    espacio entre letras: 1px;
+}
+.btn.btn-xs, .btn-group-xs .btn,
+.navbar .navbar-nav> li> a.btn.btn-xs, .btn-group-xs
+.navbar .navbar-nav> li> a.btn {
+  acolchado: 4px 15px;
+  tamaño de fuente: 10px;
+}
+.btn.btn-just-icon,
+.navbar .navbar-nav> li> a.btn.btn-just-icon {
+  tamaño de fuente: 18px;
+  relleno: 10px 10px;
+  altura de línea: 1em;
+}
+.btn.btn-just-icon i,
+.navbar .navbar-nav> li> a.btn.btn-just-icon i {
+  ancho: 20px;
+}
+.btn.btn-just-icon.btn-lg,
+.navbar .navbar-nav> li> a.btn.btn-just-icon.btn-lg {
+  tamaño de fuente: 22px;
+  acolchado: 13px 18px;
+}
+
+.btn .material-icons {
+  alineación vertical: medio;
+  tamaño de fuente: 17px;
+  arriba: -1px;
+  posición: relativa;
+}
+
+.navbar .navbar-nav> li> a.btn {
+  margen superior: 2px;
+  margen inferior: 2px;
+}
+.navbar .navbar-nav> li> a.btn.btn-fab {
+  margen: 5px 2px;
+}
+.navbar .navbar-nav> li> a: not (.btn) .material-icons {
+  margen superior: -3px;
+  arriba: 0px;
+  posición: relativa;
+  margen derecho: 3px;
+}
+.navbar .navbar-nav> li> .profile-photo {
+  margen: 5px 2px;
+}
+
+.navbar-default: not (.navbar-transparent) .navbar-nav> li> a.btn.btn-white.btn-simple {
+  color: # 555555;
+}
+
+.btn-group,
+.btn-group-vertical {
+  posición: relativa;
+  margen: 10px 1px;
+}
+.btn-group.open> .dropdown-toggle.btn, .btn-group.open> .dropdown-toggle.btn.btn-default,
+.btn-group-vertical.open> .dropdown-toggle.btn,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-default {
+  color de fondo: #EEEEEE;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-inverse,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-inverse {
+  color de fondo: # 3f51b5;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-primary,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-primary {
+  color de fondo: # 1e9dde;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-success,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-success {
+  color de fondo: # 4caf50;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-info,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-info {
+  color de fondo: # 03a9f4;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-warning,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-warning {
+  color de fondo: # fbc02d;
+}
+.btn-group.open> .dropdown-toggle.btn.btn-danger,
+.btn-group-vertical.open> .dropdown-toggle.btn.btn-danger {
+  color de fondo: # f44336;
+}
+.btn-group .dropdown-menu,
+.btn-group-vertical .dropdown-menu {
+  radio de borde: 0 0 3px 3px;
+}
+.btn-group.btn-group-raised,
+.btn-group-vertical.btn-group-raised {
+  box-shadow: 0 2px 2px 0 rgba (0, 0, 0, 0.14), 0 3px 1px -2px rgba (0, 0, 0, 0.2), 0 1px 5px 0 rgba (0, 0, 0, 0.12);
+}
+.btn-group .btn + .btn,
+.btn-group .btn,
+.btn-group .btn: activo,
+.btn-group .btn-group,
+.btn-group-vertical .btn + .btn,
+.btn-group-vertical .btn,
+.btn-group-vertical .btn: activo,
+.btn-group-vertical .btn-group {
+  margen: 0;
+}
+
+.cerca {
+  tamaño de fuente: heredar;
+  color: #FFFFFF;
+  opacidad: .9;
+  sombra de texto: ninguno;
+}
+.close: hover, .close: focus {
+  opacidad: 1;
+  color: #FFFFFF;
+}
+.close i {
+  tamaño de fuente: 20px;
+}
+
+.checkbox label {
+  cursor: puntero;
+  relleno-izquierda: 0;
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .checkbox label {
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .checkbox label: hover, .form-group.is-focus .checkbox label: focus {
+  color: rgba (0,0,0, .54);
+}
+fieldset [desactivado] .form-group.is-focus .checkbox label {
+  color: rgba (0,0,0, 0,26);
+}
+.checkbox input [type = checkbox] {
+  opacidad: 0;
+  posición: absoluta;
+  margen: 0;
+  índice z: -1;
+  ancho: 0;
+  altura: 0;
+  desbordamiento: oculto;
+  izquierda: 0;
+  eventos de puntero: ninguno;
+}
+.checkbox .checkbox-material {
+  alineación vertical: medio;
+  posición: relativa;
+  arriba: 1px;
+  relleno derecho: 5px;
+  pantalla: bloque en línea;
+}
+.checkbox .checkbox-material: before {
+  bloqueo de pantalla;
+  posición: absoluta;
+  izquierda: 0;
+  contenido: "";
+  color de fondo: rgba (0, 0, 0, 0,84);
+  altura: 20px;
+  ancho: 20px;
+  radio de borde: 100%;
+  índice z: 1;
+  opacidad: 0;
+  margen: 0;
+  arriba: 0;
+  -webkit-transform: scale3d (2.3,2.3,1);
+  -moz-transform: scale3d (2.3,2.3,1);
+  -o-transform: scale3d (2.3,2.3,1);
+  -ms-transform: scale3d (2.3,2.3,1);
+  transformar: scale3d (2.3,2.3,1);
+}
+.checkbox .checkbox-material .check {
+  posición: relativa;
+  pantalla: bloque en línea;
+  ancho: 20px;
+  altura: 20px;
+  borde: 1px rgba sólido (0,0,0, .54);
+  desbordamiento: oculto;
+  índice z: 1;
+  radio de borde: 3px;
+}
+.checkbox .checkbox-material .check: before {
+  posición: absoluta;
+  contenido: "";
+  transformar: rotar (45 grados);
+  bloqueo de pantalla;
+  margen superior: -3px;
+  margen izquierdo: 7px;
+  ancho: 0;
+  altura: 0;
+  fondo: rojo;
+  cuadro-sombra: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 recuadro;
+  -webkit-animation: casilla de verificación desactivada 0.3s hacia adelante;
+  -moz-animation: casilla de verificación desactivada 0.3s hacia adelante;
+  -o-animación: casilla de verificación desactivada 0.3s hacia adelante;
+  -ms-animation: casilla de verificación desactivada 0.3s hacia adelante;
+  animación: casilla de verificación desactivada 0.3s hacia adelante;
+}
+.checkbox input [type = checkbox]: focus + .checkbox-material .check: after {
+  opacidad: 0.2;
+}
+.checkbox input [type = checkbox]: marcado + .checkbox-material .check {
+  fondo: # 1e9dde;
+}
+.checkbox input [type = checkbox]: check + .checkbox-material .check: before {
+  color: #FFFFFF;
+  box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+  -webkit-animation: checkbox-on 0.3s hacia adelante;
+  -moz-animation: checkbox-on 0.3s hacia adelante;
+  -o-animation: checkbox-on 0.3s hacia adelante;
+  -ms-animation: checkbox-on 0.3s hacia adelante;
+  animación: checkbox-on 0.3s hacia adelante;
+}
+.checkbox input [type = checkbox]: marcado + .checkbox-material: before {
+  -webkit-animation: rippleOn 500ms;
+  -moz-animation: rippleOn 500ms;
+  -o-animación: rippleOn 500ms;
+  -ms-animation: rippleOn 500ms;
+  animación: ondulación En 500 ms;
+}
+.checkbox input [type = checkbox]: marcado + .checkbox-material .check: después de {
+  -webkit-animation: rippleOn 500ms hacia adelante;
+  -moz-animation: rippleOn 500ms adelante;
+  -o-animación: ondulación 500 ms adelante;
+  -ms-animation: rippleOn 500ms hacia adelante;
+  animación: ondulación En 500 ms hacia adelante;
+}
+.checkbox input [type = checkbox]: not (: marcado) + .checkbox-material: before {
+  -webkit-animation: rippleOff 500ms;
+  -moz-animation: rippleOff 500ms;
+  -o-animación: rippleOff 500ms;
+  -ms-animation: rippleOff 500ms;
+  animación: rippleOff 500ms;
+}
+.checkbox input [type = checkbox]: not (: marcado) + .checkbox-material .check: después de {
+  -webkit-animation: rippleOff 500ms;
+  -moz-animation: rippleOff 500ms;
+  -o-animación: rippleOff 500ms;
+  -ms-animation: rippleOff 500ms;
+  animación: rippleOff 500ms;
+}
+fieldset [disabled] .checkbox, fieldset [disabled] .checkbox input [type = checkbox],
+.checkbox input [type = checkbox] [disabled] ~ .checkbox-material .check,
+.checkbox input [type = checkbox] [desactivado] + .circle {
+  opacidad: 0.5;
+}
+.checkbox input [type = checkbox] [disabled] ~ .checkbox-material .check {
+  color del borde: # 000000;
+  opacidad: .26;
+}
+.checkbox input [type = checkbox] [disabled] + .checkbox-material .check: after {
+  color de fondo: rgba (0,0,0, 0,87);
+  transformar: rotar (-45 grados);
+}
+
+@keyframes checkbox-on {
+  0% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
+  }
+  50% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
+  }
+  100% {
+    box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
+  }
+}
+@keyframes rippleOn {
+  0% {
+    opacidad: 0;
+  }
+  50% {
+    opacidad: 0.2;
+  }
+  100% {
+    opacidad: 0;
+  }
+}
+@keyframes rippleOff {
+  0% {
+    opacidad: 0;
+  }
+  50% {
+    opacidad: 0.2;
+  }
+  100% {
+    opacidad: 0;
+  }
+}
+.botón de activación {
+  alineación vertical: medio;
+}
+.togglebutton, .togglebutton label, .togglebutton input, .togglebutton .toggle {
+  selección de usuario: ninguno;
+}
+.togglebutton label {
+  cursor: puntero;
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .togglebutton label {
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .togglebutton label: hover, .form-group.is-focus .togglebutton label: focus {
+  color: rgba (0,0,0, .54);
+}
+fieldset [disabled] .form-group.is-focus .togglebutton label {
+  color: rgba (0,0,0, 0,26);
+}
+.togglebutton etiqueta de entrada [tipo = casilla de verificación] {
+  opacidad: 0;
+  ancho: 0;
+  altura: 0;
+}
+.togglebutton etiqueta .toggle {
+  alinear texto: izquierda;
+  margen izquierdo: 5px;
+}
+.togglebutton etiqueta .toggle,
+entrada de etiqueta .togglebutton [tipo = casilla de verificación] [deshabilitado] + .toggle {
+  contenido: "";
+  pantalla: bloque en línea;
+  ancho: 30px;
+  altura: 15px;
+  color de fondo: rgba (80, 80, 80, 0.7);
+  radio de borde: 15px;
+  margen derecho: 15px;
+  transición: fondo 0.3s facilidad;
+  alineación vertical: medio;
+}
+.togglebutton label .toggle: after {
+  contenido: "";
+  pantalla: bloque en línea;
+  ancho: 20px;
+  altura: 20px;
+  color de fondo: #FFFFFF;
+  radio de borde: 20px;
+  posición: relativa;
+  cuadro-sombra: 0 1px 3px 1px rgba (0, 0, 0, 0.4);
+  izquierda: -5px;
+  arriba: -3px;
+  borde: 1px rgba sólido (0,0,0, .54);
+  transición: izquierda 0.3s facilidad, fondo 0.3s facilidad, caja-sombra 0.1s facilidad;
+}
+entrada de etiqueta .togglebutton [tipo = casilla de verificación] [deshabilitado] + .toggle: después, entrada de etiqueta .togglebutton [tipo = casilla de verificación] [deshabilitado]: marcado + .toggle: después de {
+  color de fondo: #BDBDBD;
+}
+entrada de etiqueta .togglebutton [type = checkbox] + .toggle: active: after, entrada de etiqueta .togglebutton [type = checkbox] [disabled] + .toggle: active: after {
+  sombra de cuadro: 0 1px 3px 1px rgba (0, 0, 0, 0.4), 0 0 0 15px rgba (0, 0, 0, 0.1);
+}
+entrada de etiqueta .togglebutton [type = checkbox]: marcado + .toggle: después de {
+  izquierda: 15 px;
+}
+entrada de etiqueta .togglebutton [type = checkbox]: marcado + .toggle {
+  color de fondo: rgba (156, 39, 176, 0.7);
+}
+entrada de etiqueta .togglebutton [type = checkbox]: marcado + .toggle: después de {
+  color del borde: # 1e9dde;
+}
+entrada de etiqueta .togglebutton [type = checkbox]: marcado + .toggle: activo: después de {
+  sombra de cuadro: 0 1px 3px 1px rgba (0, 0, 0, 0.4), 0 0 0 15px rgba (156, 39, 176, 0.1);
+}
+
+etiqueta .radio {
+  cursor: puntero;
+  relleno-izquierda: 35px;
+  posición: relativa;
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .radio label {
+  color: rgba (0,0,0, 0,26);
+}
+.form-group.is-focus .radio label: hover, .form-group.is-focus .radio label: focus {
+  color: rgba (0,0,0, .54);
+}
+fieldset [desactivado] .form-group.is-focus .radio label {
+  color: rgba (0,0,0, 0,26);
+}
+.radio etiqueta span {
+  bloqueo de pantalla;
+  posición: absoluta;
+  izquierda: 10px;
+  arriba: 2px;
+  duración de transición: 0.2s;
+}
+.radio etiqueta .circle {
+  borde: 1px rgba sólido (0,0,0, .54);
+  altura: 15px;
+  ancho: 15px;
+  radio de borde: 100%;
+}
+.radio label .check {
+  altura: 15px;
+  ancho: 15px;
+  radio de borde: 100%;
+  color de fondo: # 1e9dde;
+  -webkit-transform: scale3d (0,0,0);
+  -moz-transform: scale3d (0,0,0);
+  -o-transform: scale3d (0,0,0);
+  -ms-transform: scale3d (0,0,0);
+  transformar: scale3d (0,0,0);
+}
+etiqueta .radio .check: después de {
+  bloqueo de pantalla;
+  posición: absoluta;
+  contenido: "";
+  color de fondo: rgba (0,0,0, 0,87);
+  izquierda: -18 px;
+  arriba: -18px;
+  altura: 50 px;
+  ancho: 50px;
+  radio de borde: 100%;
+  índice z: 1;
+  opacidad: 0;
+  margen: 0;
+  -webkit-transform: scale3d (1.5,1.5,1);
+  -moz-transform: scale3d (1.5,1.5,1);
+  -o-transform: scale3d (1.5,1.5,1);
+  -ms-transform: scale3d (1.5,1.5,1);
+  transformar: scale3d (1.5,1.5,1);
+}
+.radio etiqueta de entrada [tipo = radio]: no (: marcado) ~ .check: después de {
+  -webkit-animation: rippleOff 500ms;
+  -moz-animation: rippleOff 500ms;
+  -o-animación: rippleOff 500ms;
+  -ms-animation: rippleOff 500ms;
+  animación: rippleOff 500ms;
+}
+.radio label input [type = radio]: marcado ~ .check: después de {
+  -webkit-animation: rippleOff 500ms;
+  -moz-animation: rippleOff 500ms;
+  -o-animación: rippleOff 500ms;
+  -ms-animation: rippleOff 500ms;
+  animación: rippleOff 500ms;
+}
+.radio input [type = radio] {
+  opacidad: 0;
+  altura: 0;
+  ancho: 0;
+  desbordamiento: oculto;
+}
+.radio input [type = radio]: marcado ~ .check, .radio input [type = radio]: marcado ~ .circle {
+  opacidad: 1;
+}
+.radio input [type = radio]: marcado ~ .check {
+  color de fondo: # 1e9dde;
+}
+.radio input [type = radio]: marcado ~ .circle {
+  color del borde: # 1e9dde;
+}
+.radio input [type = radio]: marcado ~ .check {
+  -webkit-transform: scale3d (0.65, 0.65, 1);
+  -moz-transform: scale3d (0.65, 0.65, 1);
+  -o-transform: scale3d (0.65, 0.65, 1);
+  -ms-transform: scale3d (0.65, 0.65, 1);
+  transformar: scale3d (0.65, 0.65, 1);
+}
+.radio input [type = radio] [disabled] ~ .check, .radio input [type = radio] [disabled] ~ .circle {
+  opacidad: 0.26;
+}
+.radio input [type = radio] [disabled] ~ .check {
+  color de fondo: # 000000;
+}
+.radio input [type = radio] [disabled] ~ .circle {
+  color del borde: # 000000;
+}
+
+@keyframes rippleOn {
+  0% {
+    opacidad: 0;
+  }
+  50% {
+    opacidad: 0.2;
+  }
+  100% {
+    opacidad: 0;
+  }
+}
+@keyframes rippleOff {
+  0% {
+    opacidad: 0;
+  }
+  50% {
+    opacidad: 0.2;
+  }
+  100% {
+    opacidad: 0;
+  }
+}
+leyenda {
+  margen inferior: 20px;
+  tamaño de fuente: 21px;
+}
+
+salida {
+  relleno superior: 8px;
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+}
+
+.form-control {
+  altura: 36px;
+  relleno: 7px 0;
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+}
+
+@media screen y (-webkit-min-device-pixel-ratio: 0) {
+  input [type = "date"]. form-control,
+  input [type = "time"]. form-control,
+  input [type = "datetime-local"]. form-control,
+  input [type = "month"]. form-control {
+    altura de línea: 36 px;
+  }
+  input [type = "date"]. input-sm, .input-group-sm input [type = "date"],
+  input [type = "time"]. input-sm, .input-group-sm
+  input [type = "time"],
+  input [type = "datetime-local"]. input-sm, .input-group-sm
+  input [type = "datetime-local"],
+  input [type = "month"]. input-sm, .input-group-sm
+  input [type = "month"] {
+    altura de línea: 24 px;
+  }
+  input [type = "date"]. input-lg, .input-group-lg input [type = "date"],
+  input [type = "time"]. input-lg, .input-group-lg
+  input [type = "time"],
+  input [type = "datetime-local"]. input-lg, .input-group-lg
+  input [type = "datetime-local"],
+  input [type = "month"]. input-lg, .input-group-lg
+  input [type = "month"] {
+    altura de línea: 44 px;
+  }
+}
+etiqueta de radio,
+.checkbox label {
+  altura mínima: 20 px;
+}
+
+.form-control-static {
+  relleno superior: 8px;
+  relleno inferior: 8px;
+  min-height: 34px;
+}
+
+.input-sm .input-sm {
+  altura: 24px;
+  relleno: 3px 0;
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+  radio de borde: 0;
+}
+.input-sm select.input-sm {
+  altura: 24px;
+  altura de línea: 24 px;
+}
+.input-sm textarea.input-sm,
+.input-sm select [multiple] .input-sm {
+  altura: auto;
+}
+
+.form-group-sm .form-control {
+  altura: 24px;
+  relleno: 3px 0;
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+}
+.form-group-sm select.form-control {
+  altura: 24px;
+  altura de línea: 24 px;
+}
+.form-group-sm textarea.form-control,
+.form-group-sm select [multiple] .form-control {
+  altura: auto;
+}
+.form-group-sm .form-control-static {
+  altura: 24px;
+  altura mínima: 31 px;
+  relleno: 4px 0;
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+}
+
+.input-lg .input-lg {
+  altura: 44 px;
+  relleno: 9px 0;
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+  radio de borde: 0;
+}
+.input-lg select.input-lg {
+  altura: 44 px;
+  altura de línea: 44 px;
+}
+.input-lg textarea.input-lg,
+.input-lg seleccione [múltiple] .input-lg {
+  altura: auto;
+}
+
+.form-group-lg .form-control {
+  altura: 44 px;
+  relleno: 9px 0;
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+}
+.form-group-lg select.form-control {
+  altura: 44 px;
+  altura de línea: 44 px;
+}
+.form-group-lg textarea.form-control,
+.form-group-lg select [multiple] .form-control {
+  altura: auto;
+}
+.form-group-lg .form-control-static {
+  altura: 44 px;
+  altura mínima: 38 px;
+  relleno: 10px 0;
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+}
+
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  relleno superior: 8px;
+}
+.form-horizontal .radio,
+.form-horizontal .checkbox {
+  Altura mínima: 28 px;
+}
+@media (ancho mínimo: 768px) {
+  .form-horizontal .control-label {
+    relleno superior: 8px;
+  }
+}
+@media (ancho mínimo: 768px) {
+  .form-horizontal .form-group-lg .control-label {
+    relleno superior: 13.0px;
+    tamaño de fuente: 18px;
+  }
+}
+@media (ancho mínimo: 768px) {
+  .form-horizontal .form-group-sm .control-label {
+    relleno superior: 4px;
+    tamaño de fuente: 11px;
+  }
+}
+
+.label {
+  radio de borde: 2px;
+}
+.label, .label.label-default {
+  color de fondo: # 9e9e9e;
+}
+.label.label-inverso {
+  color de fondo: # 3f51b5;
+}
+.label.label-primary {
+  color de fondo: # 1e9dde;
+}
+.label.label-success {
+  color de fondo: # 4caf50;
+}
+.label.label-info {
+  color de fondo: # 03a9f4;
+}
+.label.label-warning {
+  color de fondo: # fbc02d;
+}
+.label.label-danger {
+  color de fondo: # f44336;
+}
+
+.form-control,
+.form-group .form-control {
+  borde: 0;
+  imagen de fondo: gradiente lineal (# 1e9dde, # 1e9dde), gradiente lineal (# D2D2D2, # D2D2D2);
+  tamaño de fondo: 0 2px, 100% 1px;
+  repetición de fondo: sin repetición;
+  posición de fondo: centro inferior, centro calc (100% - 1px);
+  color de fondo: transparente;
+  transición: facilitación de fondo 0s;
+  flotador: ninguno;
+  cuadro-sombra: ninguno;
+  radio de borde: 0;
+  peso de fuente: 400;
+}
+.form-control :: - moz-placeholder,
+.form-group .form-control :: - moz-placeholder {
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-control: -ms-input-placeholder,
+.form-group .form-control: -ms-input-placeholder {
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-control :: - webkit-input-placeholder,
+.form-group .form-control :: - webkit-input-placeholder {
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-control [solo lectura], .form-control [deshabilitado], fieldset [deshabilitado] .form-control,
+.form-group .form-control [solo lectura],
+.form-group .form-control [deshabilitado], conjunto de campos [deshabilitado]
+.form-group .form-control {
+  color de fondo: transparente;
+}
+.form-control [deshabilitado], conjunto de campos [deshabilitado] .form-control,
+.form-group .form-control [deshabilitado], conjunto de campos [deshabilitado]
+.form-group .form-control {
+  imagen de fondo: ninguna;
+  borde inferior: 1px punteado # D2D2D2;
+}
+
+.form-group {
+  posición: relativa;
+}
+.form-group.label-static label.control-label, .form-group.label-placeholder label.control-label, .form-group.label-floating label.control-label {
+  posición: absoluta;
+  eventos de puntero: ninguno;
+  transición: 0.3s facilitar todo;
+}
+.form-group.label-floating label.control-label {
+  will-change: izquierda, arriba, contenido;
+}
+.form-group.label-placeholder: not (.is-empty) label.control-label {
+  pantalla: ninguno;
+}
+.form-group .help-block {
+  posición: absoluta;
+  pantalla: ninguno;
+}
+.form-group.is-focus .form-control {
+  esquema: ninguno;
+  imagen de fondo: gradiente lineal (# 1e9dde, # 1e9dde), gradiente lineal (# D2D2D2, # D2D2D2);
+  tamaño de fondo: 100% 2px, 100% 1px;
+  cuadro-sombra: ninguno;
+  duración de transición: 0.3s;
+}
+.form-group.is-focus .form-control .material-input: after {
+  color de fondo: # 1e9dde;
+}
+etiqueta .form-group.is-focus,
+.form-group.is-focus label.control-label {
+  color: # 1e9dde;
+}
+.form-group.is-focused.label-placeholder label,
+.form-group.is-focus.label-placeholder label.control-label {
+  color: #AAAAAA;
+}
+.form-group.is-focus .help-block {
+  bloqueo de pantalla;
+}
+.form-group.has-warning .form-control {
+  cuadro-sombra: ninguno;
+}
+.form-group.has-warning.is-focus .form-control {
+  imagen de fondo: gradiente lineal (# fbc02d, # fbc02d), gradiente lineal (# D2D2D2, # D2D2D2);
+}
+.form-group.has-warning label.control-label,
+.form-group.has-warning .help-block {
+  color: # fbc02d;
+}
+.form-group.has-error .form-control {
+  cuadro-sombra: ninguno;
+}
+.form-group.has-error.is-focus .form-control {
+  imagen de fondo: gradiente lineal (# f44336, # f44336), gradiente lineal (# D2D2D2, # D2D2D2);
+}
+.form-group.has-error label.control-label,
+.form-group.has-error .help-block {
+  color: # f44336;
+}
+.form-group.has-success .form-control {
+  cuadro-sombra: ninguno;
+}
+.form-group.has-success.is-focus .form-control {
+  imagen de fondo: gradiente lineal (# 4caf50, # 4caf50), gradiente lineal (# D2D2D2, # D2D2D2);
+}
+.form-group.has-success label.control-label,
+.form-group.has-success .help-block {
+  color: # 4caf50;
+}
+.form-group.has-info .form-control {
+  cuadro-sombra: ninguno;
+}
+.form-group.has-info.is-focus .form-control {
+  imagen de fondo: gradiente lineal (# 03a9f4, # 03a9f4), gradiente lineal (# D2D2D2, # D2D2D2);
+}
+.form-group.has-info label.control-label,
+.form-group.has-info .help-block {
+  color: # 03a9f4;
+}
+.form-group textarea {
+  cambiar el tamaño: ninguno;
+}
+.form-group textarea ~ .form-control-highlight {
+  margen superior: -11px;
+}
+.form-group select {
+  apariencia: ninguno;
+}
+.form-group select ~ .material-input: after {
+  pantalla: ninguno;
+}
+
+.form-control {
+  margen inferior: 7px;
+}
+.form-control :: - moz-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-control: -ms-input-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-control :: - webkit-input-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+
+etiqueta de casilla de verificación,
+etiqueta de radio,
+etiqueta {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+
+label.control-label {
+  tamaño de fuente: 11px;
+  altura de línea: 1.07143;
+  color: #AAAAAA;
+  peso de fuente: 400;
+  margen: 16px 0 0 0;
+}
+
+.help-block {
+  margen superior: 0;
+  tamaño de fuente: 11px;
+}
+
+.form-group {
+    relleno inferior: 7px;
+    margen: 7px 0 0 0;
+}
+.form-group .form-control {
+  margen inferior: 7px;
+}
+.form-group .form-control :: - moz-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group .form-control: -ms-input-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group .form-control :: - webkit-input-placeholder {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group .checkbox label,
+etiqueta .radio de grupo de forma
+.form-group label {
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group label.control-label {
+    tamaño de fuente: 11px;
+    altura de línea: 1.07143;
+    color: #AAAAAA;
+    peso de fuente: 900;
+    margen: 16px 0 0 -9px;
+    color de fondo: # f5f5f5;
+    acolchado: 5px 10px;
+    radio de borde: 12px;
+}
+.form-group .help-block {
+  margen superior: 0;
+  tamaño de fuente: 11px;
+}
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+  arriba: -7px;
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+}
+.form-group.label-static label.control-label, .form-group.label-floating.is-focus label.control-label, .form-group.label-floating: etiqueta no (.is-vacía). etiqueta de control {
+  arriba: -28px;
+  izquierda: 0;
+  tamaño de fuente: 11px;
+  altura de línea: 1.07143;
+}
+.form-group.label-floating input.form-control: -webkit-autofill ~ label.control-label label.control-label {
+  arriba: -28px;
+  izquierda: 0;
+  tamaño de fuente: 11px;
+  altura de línea: 1.07143;
+}
+
+.form-group.form-group-sm {
+  relleno inferior: 3px;
+  margen: 21px 0 0 0;
+}
+.form-group.form-group-sm .form-control {
+  margen inferior: 3px;
+}
+.form-group.form-group-sm .form-control :: - moz-placeholder {
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-sm .form-control: -ms-input-placeholder {
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-sm .form-control :: - webkit-input-placeholder {
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-sm. etiqueta de casilla de verificación,
+.form-group.form-group-sm .radio etiqueta,
+.form-group.form-group-sm etiqueta {
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-sm label.control-label {
+  tamaño de fuente: 9px;
+  altura de línea: 1.125;
+  color: #AAAAAA;
+  peso de fuente: 400;
+  margen: 16px 0 0 0;
+}
+.form-group.form-group-sm .help-block {
+  margen superior: 0;
+  tamaño de fuente: 9px;
+}
+.form-group.form-group-sm.label-floating label.control-label, .form-group.form-group-sm.label-placeholder label.control-label {
+  arriba: -11px;
+  tamaño de fuente: 11px;
+  altura de línea: 1.5;
+}
+.form-group.form-group-sm.label-static label.control-label, .form-group.form-group-sm.label-floating.is-focus label.control-label, .form-group.form -group-sm.label-floating: not (.is-empty) label.control-label {
+  arriba: -25px;
+  izquierda: 0;
+  tamaño de fuente: 9px;
+  altura de línea: 1.125;
+}
+.form-group.form-group-sm.label-floating input.form-control: -webkit-autofill ~ label.control-label label.control-label {
+  arriba: -25px;
+  izquierda: 0;
+  tamaño de fuente: 9px;
+  altura de línea: 1.125;
+}
+
+.form-group.form-group-lg {
+  relleno inferior: 9px;
+  margen: 30px 0 0 0;
+}
+.form-group.form-group-lg .form-control {
+  margen inferior: 9px;
+}
+.form-group.form-group-lg .form-control :: - moz-placeholder {
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-lg .form-control: -ms-input-placeholder {
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-lg .form-control :: - webkit-input-placeholder {
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-lg .checkbox etiqueta,
+.form-group.form-group-lg .radio etiqueta,
+.form-group.form-group-lg etiqueta {
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+  color: #AAAAAA;
+  peso de fuente: 400;
+}
+.form-group.form-group-lg label.control-label {
+  tamaño de fuente: 14px;
+  altura de línea: 1.0;
+  color: #AAAAAA;
+  peso de fuente: 400;
+  margen: 16px 0 0 0;
+}
+.form-group.form-group-lg .help-block {
+  margen superior: 0;
+  tamaño de fuente: 14px;
+}
+.form-group.form-group-lg.label-floating label.control-label, .form-group.form-group-lg.label-placeholder label.control-label {
+  arriba: -5px;
+  tamaño de fuente: 18px;
+  altura de línea: 1.33333;
+}
+.form-group.form-group-lg.label-static label.control-label, .form-group.form-group-lg.label-floating.is-focus label.control-label, .form-group.fo rm-group-lg.label-floating: not (.is-empty) label.control-label {
+  arriba: -32px;
+  izquierda: 0;
+  tamaño de fuente: 14px;
+  altura de línea: 1.0;
+}
+.form-group.form-group-lg.label-floating input.form-control: -webkit-autofill ~ label.control-label label.control-label {
+  arriba: -32px;
+  izquierda: 0;
+  tamaño de fuente: 14px;
+  altura de línea: 1.0;
+}
+
+select.form-control {
+  borde: 0;
+  cuadro-sombra: ninguno;
+  radio de borde: 0;
+}
+.form-group.is-focus select.form-control {
+  cuadro-sombra: ninguno;
+  color del borde: # D2D2D2;
+}
+select.form-control [múltiple], .form-group.is-focus select.form-control [múltiple] {
+  altura: 85 px;
+}
+
+.input-group-btn .btn {
+  margen: 0 0 7px 0;
+}
+
+.form-group.form-group-sm .input-group-btn .btn {
+  margen: 0 0 3px 0;
+}
+.form-group.form-group-lg .input-group-btn .btn {
+  margen: 0 0 9px 0;
+}
+
+.input-group .input-group-btn {
+  relleno: 0 12px;
+}
+.input-group .input-group-addon {
+  borde: 0;
+  fondo: transparente;
+  relleno: 12px 15px 0px;
+}
+
+.form-group input [tipo = archivo] {
+  opacidad: 0;
+  posición: absoluta;
+  arriba: 0;
+  derecha: 0;
+  abajo: 0;
+  izquierda: 0;
+  ancho: 100%;
+  altura: 100%;
+  índice z: 100;
+}
+
+.form-control-feedback {
+  opacidad: 0;
+}
+.has-success .form-control-feedback {
+  color: # 4caf50;
+  opacidad: 1;
+}
+.has-error .form-control-feedback {
+  color: # f44336;
+  opacidad: 1;
+}
+
+.pagination> li> a,
+.pagination> li> span {
+  borde: 0;
+  radio de borde: 30px! importante;
+  transición: todos los .3s;
+  relleno: 0px 11px;
+  margen: 0 3px;
+  ancho min: 30px;
+  altura: 30px;
+  altura de línea: 30 px;
+  color: # 999999;
+  peso de fuente: 400;
+  tamaño de fuente: 12px;
+  transformación de texto: mayúscula;
+  fondo: transparente;
+}
+.pagination> li> a: hover, .pagination> li> a: foco,
+.pagination> li> span: hover,
+.pagination> li> span: focus {
+  color: # 999999;
+}
+.pagination> .active> a,
+.pagination> .active> span {
+  color: # 999999;
+}
+.pagination> .active> a, .pagination> .active> a: focus, .pagination> .active> a: hover,
+.pagination> .active> span,
+.pagination> .active> span: focus,
+.pagination> .active> span: hover {
+  color de fondo: # 1e9dde;
+  color del borde: # 1e9dde;
+  color: #FFFFFF;
+  box-shadow: 0 4px 5px 0 rgba (156, 39, 176, 0.14), 0 1px 10px 0 rgba (156, 39, 176, 0.12), 0 2px 4px -1px rgba (156, 39, 176, 0.2);
+}
+.pagination.pagination-info> .active> a, .pagination.pagination-info> .active> a: focus, .pagination.pagination-info> .active> a: hover,
+.pagination.pagination-info> .active> span,
+.pagination.pagination-info> .active> span: focus,
+.pagination.pagination-info> .active> span: hover {
+  color de fondo: # 03a9f4;
+  color del borde: # 03a9f4;
+  box-shadow: 0 4px 5px 0 rgba (3, 169, 244, 0.14), 0 1px 10px 0 rgba (3, 169, 244, 0.12), 0 2px 4px -1px rgba (3, 169, 244, 0.2);
+}
+.pagination.pagination-success> .active> a, .pagination.pagination-success> .active> a: focus, .pagination.pagination-success> .active> a: hover,
+.pagination.pagination-success> .active> span,
+.pagination.pagination-success> .active> span: focus,
+.pagination.pagination-success> .active> span: hover {
+  color de fondo: # 4caf50;
+  color del borde: # 4caf50;
+  box-shadow: 0 4px 5px 0 rgba (76, 175, 80, 0.14), 0 1px 10px 0 rgba (76, 175, 80, 0.12), 0 2px 4px -1px rgba (76, 175, 80, 0.2);
+}
+.pagination.pagination-warning> .active> a, .pagination.pagination-warning> .active> a: focus, .pagination.pagination-warning> .active> a: hover,
+.pagination.pagination-warning> .active> span,
+.pagination.pagination-warning> .active> span: focus,
+.pagination.pagination-warning> .active> span: hover {
+  color de fondo: # fbc02d;
+  color de borde: # fbc02d;
+  box-shadow: 0 4px 5px 0 rgba (251, 192, 45, 0.14), 0 1px 10px 0 rgba (251, 192, 45, 0.12), 0 2px 4px -1px rgba (251, 192, 45, 0.2);
+}
+.pagination.pagination-danger> .active> a, .pagination.pagination-danger> .active> a: focus, .pagination.pagination-danger> .active> a: hover,
+.pagination.pagination-danger> .active> span,
+.pagination.pagination-danger> .active> span: focus,
+.pagination.pagination-danger> .active> span: hover {
+  color de fondo: # f44336;
+  color del borde: # f44336;
+  box-shadow: 0 4px 5px 0 rgba (244, 67, 54, 0.14), 0 1px 10px 0 rgba (244, 67, 54, 0.12), 0 2px 4px -1px rgba (244, 67, 54, 0.2);
+}
+
+.label {
+  radio de borde: 10px;
+  acolchado: 5px 12px;
+  transformación de texto: mayúscula;
+  tamaño de fuente: 10px;
+}
+.label.label-default {
+  color de fondo: # 999999;
+}
+
+.nav-pills> li> a {
+    altura de línea: 24 px;
+    transformación de texto: mayúscula;
+    tamaño de fuente: 14px;
+    peso de fuente: 300;
+    alinear texto: centro;
+    color: # 555555;
+    transición: todos los .3s;
+    pantalla: bloque en línea;
+    color de fondo: #ffffff;
+    radio de borde: 0px;
+    margen inferior: 15px;
+    margen derecho: 15px;
+}
+.nav-pills> li> a: hover {
+  color de fondo: # 5259c5;
+    color: #ffffff
+}
+.nav-pills> li i {
+  bloqueo de pantalla;
+  tamaño de fuente: 30px;
+  relleno: 15px 0;
+}
+.nav-pills> li.active> a, .nav-pills> li.active> a: focus, .nav-pills> li.active> a: hover {
+    color de fondo: # 5259c5;
+    color: #FFFFFF;
+    box-shadow: 0 16px 26px -10px rgba (0, 0, 0, 0.56), 0 4px 25px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (156, 39, 176, 0.2) ;
+}
+.nav-pills.nav-pills-info> li.active> a, .nav-pills.nav-pills-info> li.active> a: focus, .nav-pills.nav-pills-info> li.active > a: desplazarse {
+  color de fondo: # 03a9f4;
+  box-shadow: 0 16px 26px -10px rgba (3, 169, 244, 0.56), 0 4px 25px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (3, 169, 244, 0.2) ;
+}
+.nav-pills.nav-pills-success> li.active> a, .nav-pills.nav-pills-success> li.active> a: focus, .nav-pills.nav-pills-success> li.active > a: desplazarse {
+  color de fondo: # 4caf50;
+  box-shadow: 0 16px 26px -10px rgba (76, 175, 80, 0.56), 0 4px 25px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (76, 175, 80, 0.2) ;
+}
+.nav-pills.nav-pills-warning> li.active> a, .nav-pills.nav-pills-warning> li.active> a: focus, .nav-pills.nav-pills-warning> li.active > a: desplazarse {
+  color de fondo: # fbc02d;
+  box-shadow: 0 16px 26px -10px rgba (251, 192, 45, 0.56), 0 4px 25px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (251, 192, 45, 0.2) ;
+}
+.nav-pills.nav-pills-danger> li.active> a, .nav-pills.nav-pills-danger> li.active> a: focus, .nav-pills.nav-pills-danger> li.active > a: desplazarse {
+  color de fondo: # f44336;
+  box-shadow: 0 16px 26px -10px rgba (244, 67, 54, 0.56), 0 4px 25px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (244, 67, 54, 0.2) ;
+}
+
+.tab-space {
+  relleno: 20px 0 50px 0px;
+}
+
+pie de página {
+  relleno: 15px 0;
+}
+pie de página ul {
+  margen inferior: 0;
+  relleno: 0;
+  estilo de lista: ninguno;
+}
+pie de página ul li {
+  pantalla: bloque en línea;
+}
+pie de página ul li a {
+  color: heredar;
+  acolchado: 15px;
+  peso de fuente: 500;
+  tamaño de fuente: 12px;
+  transformación de texto: mayúscula;
+  radio de borde: 3px;
+  decoración de texto: ninguno;
+  posición: relativa;
+  bloqueo de pantalla;
+}
+pie de página ul li a: hover {
+  decoración de texto: ninguno;
+}
+pie de página .copyright {
+  relleno: 15px 0;
+}
+pie de página .copyright .material-icons {
+  tamaño de fuente: 18px;
+  posición: relativa;
+  arriba: 3px;
+}
+
+leyenda {
+  borde inferior: 0;
+}
+
+.navbar {
+  borde: 0;
+  radio de borde: 3px;
+  box-shadow: 0 10px 20px -12px rgba (0, 0, 0, 0.42), 0 3px 20px 0px rgba (0, 0, 0, 0.12), 0 8px 10px -5px rgba (0, 0, 0, 0.2) ;
+  relleno: 10px 0;
+}
+.navbar .navbar-brand {
+  posición: relativa;
+  altura: 50 px;
+  altura de línea: 30 px;
+  color: heredar;
+  acolchado: 10px 15px;
+}
+.navbar .navbar-brand: hover, .navbar .navbar-brand: focus {
+  color: heredar;
+  color de fondo: transparente;
+}
+.navbar .navbar-text {
+  color: heredar;
+  margen superior: 15px;
+  margen inferior: 15px;
+}
+.navbar .navbar-nav> li> a {
+  color: heredar;
+  relleno superior: 15px;
+  relleno inferior: 15px;
+  peso de fuente: 400;
+  tamaño de fuente: 12px;
+  transformación de texto: mayúscula;
+  radio de borde: 3px;
+}
+.navbar .navbar-nav> li> a: hover, .navbar .navbar-nav> li> a: focus {
+  color: heredar;
+  color de fondo: transparente;
+}
+.navbar .navbar-nav> li> a .material-icons,
+.navbar .navbar-nav> li> a .fas {
+  tamaño de fuente: 20px;
+  ancho máximo: 20px;
+}
+.navbar .navbar-nav> li> a: not (.btn-just-icon) .fas {
+  posición: relativa;
+  arriba: 2px;
+  margen superior: -4px;
+  margen derecho: 4px;
+}
+.navbar .navbar-nav> li> .dropdown-menu {
+  margen superior: -20 px;
+}
+.navbar .navbar-nav> li.open> .dropdown-menu {
+  margen superior: 0;
+}
+.navbar .navbar-nav> .active> a, .navbar .navbar-nav> .active> a: hover, .navbar .navbar-nav> .active> a: focus {
+  color: heredar;
+  color de fondo: rgba (255, 255, 255, 0.1);
+}
+.navbar .navbar-nav> .disabled> a, .navbar .navbar-nav> .disabled> a: hover, .navbar .navbar-nav> .disabled> a: focus {
+  color: heredar;
+  color de fondo: transparente;
+  opacidad: 0.9;
+}
+.navbar .navbar-toggle {
+  borde: 0;
+}
+.navbar .navbar-toggle: hover, .navbar .navbar-toggle: focus {
+  color de fondo: transparente;
+}
+.navbar .navbar-toggle .icon-bar {
+  color de fondo: heredar;
+  borde: 1px sólido;
+}
+.navbar .navbar-default .navbar-toggle,
+.navbar .navbar-inverso .navbar-toggle {
+  color del borde: transparente;
+}
+.navbar .navbar-colapso,
+.navbar .navbar-form {
+  borde superior: ninguno;
+  cuadro-sombra: ninguno;
+}
+.navbar .navbar-nav> .open> a, .navbar .navbar-nav> .open> a: hover, .navbar .navbar-nav> .open> a: focus {
+  color de fondo: transparente;
+  color: heredar;
+}
+@media (ancho máximo: 767 px) {
+  .navbar .navbar-nav .navbar-text {
+    color: heredar;
+    margen superior: 15px;
+    margen inferior: 15px;
+  }
+  .navbar .navbar-nav .open .dropdown-menu> .dropdown-header {
+    borde: 0;
+    color: heredar;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .divider {
+    borde inferior: 1px sólido;
+    opacidad: 0.08;
+  }
+  .navbar .navbar-nav .open .dropdown-menu> li> a {
+    color: heredar;
+  }
+  .navbar .navbar-nav .open .dropdown-menu> li> a: hover, .navbar .navbar-nav .open .dropdown-menu> li> a: focus {
+    color: heredar;
+    color de fondo: transparente;
+  }
+  .navbar .navbar-nav .open .dropdown-menu> .active> a, .navbar .navbar-nav .open .dropdown-menu> .active> a: hover, .navbar .navbar-nav .open .dropdown-menu > .active> a: focus {
+    color: heredar;
+    color de fondo: transparente;
+  }
+  .navbar .navbar-nav .open .dropdown-menu> .disabled> a, .navbar .navbar-nav .open .dropdown-menu> .disabled> a: hover, .navbar .navbar-nav .open .dropdown-menu > .disabled> a: focus {
+    color: heredar;
+    color de fondo: transparente;
+  }
+}
+.navbar.navbar-default .logo-container .brand {
+  color: # 555555;
+}
+.navbar .navbar-link {
+  color: heredar;
+}
+.navbar .navbar-link: hover {
+  color: heredar;
+}
+.navbar .btn {
+  margen superior: 0;
+  margen inferior: 0;
+}
+.navbar .btn-link {
+  color: heredar;
+}
+.navbar .btn-link: hover, .navbar .btn-link: focus {
+  color: heredar;
+}
+.navbar .btn-link [deshabilitado]: hover, .navbar .btn-link [deshabilitado]: foco, conjunto de campos [deshabilitado] .navbar .btn-link: hover, conjunto de campos [deshabilitado] .navbar .btn-link: foco {
+  color: heredar;
+}
+.navbar .navbar-form {
+  margen: 4px 0 0;
+}
+.navbar .navbar-form .form-group {
+  margen: 0;
+  relleno: 0;
+}
+.navbar .navbar-form .form-group .material-input: before, .navbar .navbar-form .form-group.is-focus .material-input: after {
+  color de fondo: heredar;
+}
+.navbar .navbar-form .form-group .form-control,
+.navbar .navbar-form .form-control {
+  color del borde: heredar;
+  color: heredar;
+  relleno: 0;
+  margen: 0;
+  altura: 28px;
+  tamaño de fuente: 14px;
+  altura de línea: 1.42857;
+}
+.navbar, .navbar.navbar-default {
+  color de fondo: # 1e9dde;
+  color: #ffffff;
+}
+.navbar .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar .navbar-form input.form-control :: - moz-placeholder, .navbar.navbar-default .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar.navbar-default .navbar-form input.form-control :: - moz-placeholder {
+  color: #ffffff;
+}
+.navbar .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar .navbar-form input.form-control: -ms-input-placeholder, .navbar.navbar-default .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar.navbar-default .navbar-form input.form-control: -ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar .navbar-form input.form-control :: - webkit-input-placeholder, .navbar.navbar-default .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar.navbar-default .navbar-form input.form-control :: - webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar .dropdown-menu, .navbar.navbar-default .dropdown-menu {
+  radio de borde: 3px! importante;
+}
+.navbar .dropdown-menu li> a: hover, .navbar .dropdown-menu li> a: focus, .navbar.navbar-default .dropdown-menu li> a: hover, .navbar.navbar-default .dropdown-menu li> a: foco {
+  color: #FFFFFF;
+  color de fondo: # 1e9dde;
+}
+.navbar .dropdown-menu .active> a, .navbar.navbar-default .dropdown-menu .active> a {
+  color de fondo: # 1e9dde;
+  color: #ffffff;
+}
+.navbar .dropdown-menu .active> a: hover, .navbar .dropdown-menu .active> a: focus, .navbar.navbar-default .dropdown-menu .active> a: hover, .navbar.navbar-default. menú desplegable .active> a: focus {
+  color: #ffffff;
+}
+.navbar.navbar-inverso {
+  color de fondo: # 3f51b5;
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-inverso .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar.navbar-inverso .navbar-form input.form-control :: - moz-placeholder {
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-inverso .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar.navbar-inverso .navbar-form input.form-control: -ms-input-placeholder {
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-inverso .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar.navbar-inverso .navbar-form input.form-control :: - webkit-input-placeholder {
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-inverse .dropdown-menu {
+  radio de borde: 3px! importante;
+}
+.navbar.navbar-inverse .dropdown-menu li> a: hover, .navbar.navbar-inverse .dropdown-menu li> a: focus {
+  color: #FFFFFF;
+  color de fondo: # 3f51b5;
+}
+.navbar.navbar-inverso .dropdown-menu .active> a {
+  color de fondo: # 3f51b5;
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-inverse .dropdown-menu .active> a: hover, .navbar.navbar-inverse .dropdown-menu .active> a: focus {
+  color: color de contraste (# 3f51b5, # 000000, #ffffff);
+}
+.navbar.navbar-primary {
+  color de fondo: # 1e9dde;
+  color: #ffffff;
+}
+.navbar.navbar-primary .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar.navbar-primary .navbar-form input.form-control :: - moz-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-primary .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar.navbar-primary .navbar-form input.form-control: -ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-primary .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar.navbar-primary .navbar-form input.form-control :: - webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-primary .dropdown-menu {
+  radio de borde: 3px! importante;
+}
+.navbar.navbar-primary .dropdown-menu li> a: hover, .navbar.navbar-primary .dropdown-menu li> a: focus {
+  color: #FFFFFF;
+  color de fondo: # 1e9dde;
+}
+.navbar.navbar-primary .dropdown-menu .active> a {
+  color de fondo: # 1e9dde;
+  color: #ffffff;
+}
+.navbar.navbar-primary .dropdown-menu .active> a: hover, .navbar.navbar-primary .dropdown-menu .active> a: focus {
+  color: #ffffff;
+}
+.navbar.navbar-success {
+  color de fondo: # 4caf50;
+  color: #ffffff;
+}
+.navbar.navbar-success .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar.navbar-success .navbar-form input.form-control :: - moz-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-success .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar.navbar-success .navbar-form input.form-control: -ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-success .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar.navbar-success .navbar-form input.form-control :: - webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-success .dropdown-menu {
+  radio de borde: 3px! importante;
+}
+.navbar.navbar-success .dropdown-menu li> a: hover, .navbar.navbar-success .dropdown-menu li> a: focus {
+  color: #FFFFFF;
+  color de fondo: # 4caf50;
+}
+.navbar.navbar-success .dropdown-menu .active> a {
+  color de fondo: # 4caf50;
+  color: #ffffff;
+}
+.navbar.navbar-success .dropdown-menu .active> a: hover, .navbar.navbar-success .dropdown-menu .active> a: focus {
+  color: #ffffff;
+}
+.navbar.navbar-info {
+  color de fondo: # 03a9f4;
+  color: #ffffff;
+}
+.navbar.navbar-info .navbar-form .form-group input.form-control :: - moz-placeholder,
+.navbar.navbar-info .navbar-form input.form-control :: - moz-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-info .navbar-form .form-group input.form-control: -ms-input-placeholder,
+.navbar.navbar-info .navbar-form input.form-control: -ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-info .navbar-form .form-group input.form-control :: - webkit-input-placeholder,
+.navbar.navbar-info .navbar-form input.form-control :: - webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-info .dropdown-menu {
+  radio de borde: 3px! importante;
+}
+.navbar.navbar-info .dropdown-menu li > a:hover, .navbar.navbar-info .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #03a9f4;
+}
+.navbar.navbar-info .dropdown-menu .active > a {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+.navbar.navbar-info .dropdown-menu .active > a:hover, .navbar.navbar-info .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.navbar.navbar-warning {
+  background-color: #fbc02d;
+  color: #ffffff;
+}
+.navbar.navbar-warning .navbar-form .form-group input.form-control::-moz-placeholder,
+.navbar.navbar-warning .navbar-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-warning .navbar-form .form-group input.form-control:-ms-input-placeholder,
+.navbar.navbar-warning .navbar-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-warning .navbar-form .form-group input.form-control::-webkit-input-placeholder,
+.navbar.navbar-warning .navbar-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-warning .dropdown-menu {
+  border-radius: 3px !important;
+}
+.navbar.navbar-warning .dropdown-menu li > a:hover, .navbar.navbar-warning .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #fbc02d;
+}
+.navbar.navbar-warning .dropdown-menu .active > a {
+  background-color: #fbc02d;
+  color: #ffffff;
+}
+.navbar.navbar-warning .dropdown-menu .active > a:hover, .navbar.navbar-warning .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.navbar.navbar-danger {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.navbar.navbar-danger .navbar-form .form-group input.form-control::-moz-placeholder,
+.navbar.navbar-danger .navbar-form input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-danger .navbar-form .form-group input.form-control:-ms-input-placeholder,
+.navbar.navbar-danger .navbar-form input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-danger .navbar-form .form-group input.form-control::-webkit-input-placeholder,
+.navbar.navbar-danger .navbar-form input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.navbar.navbar-danger .dropdown-menu {
+  border-radius: 3px !important;
+}
+.navbar.navbar-danger .dropdown-menu li > a:hover, .navbar.navbar-danger .dropdown-menu li > a:focus {
+  color: #FFFFFF;
+  background-color: #f44336;
+}
+.navbar.navbar-danger .dropdown-menu .active > a {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.navbar.navbar-danger .dropdown-menu .active > a:hover, .navbar.navbar-danger .dropdown-menu .active > a:focus {
+  color: #ffffff;
+}
+.navbar-inverse {
+  background-color: #3f51b5;
+}
+.navbar.navbar-transparent {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+  padding-top: 25px;
+}
+.navbar.navbar-transparent .logo-container .brand {
+  color: #FFFFFF;
+}
+.navbar-fixed-top {
+  border-radius: 0;
+}
+@media (max-width: 1199px) {
+  /* .navbar {
+        .navbar-form {
+          margin-top: 10px;
+        }
+  }*/
+  .navbar .navbar-brand {
+    height: 50px;
+    padding: 10px 15px;
+  }
+  .navbar .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.navbar .alert {
+  border-radius: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  z-index: 3;
+  transition: all 0.3s;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.dropdown-menu .divider {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.dropdown-menu li > a {
+  font-size: 13px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 2px;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus,
+.dropdown-menu li a:active {
+  background-color: #1e9dde;
+  color: #FFFFFF;
+}
+.dropdown-menu .divider {
+  margin: 5px 0;
+}
+
+@media (min-width: 992px) {
+  .middle-item {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+  .dropdown .dropdown-menu {
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    margin-top: -20px;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+  }
+  .dropdown.open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 1px;
+  }
+}
+.info {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 70px 0 30px;
+}
+.info .icon {
+  color: #999999;
+}
+.info .icon > i {
+  font-size: 4.4em;
+}
+.info .info-title {
+  color: #3C4858;
+  margin: 30px 0 15px;
+}
+.info p {
+  color: #999999;
+}
+
+.icon.icon-primary {
+  color: #1e9dde;
+}
+.icon.icon-info {
+  color: #03a9f4;
+}
+.icon.icon-success {
+  color: #4caf50;
+}
+.icon.icon-warning {
+  color: #fbc02d;
+}
+.icon.icon-danger {
+  color: #f44336;
+}
+
+.alert {
+  border: 0;
+  border-radius: 0;
+  padding: 20px 15px;
+  line-height: 20px;
+}
+.alert b {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.alert, .alert.alert-default {
+  background-color: white;
+  color: #ffffff;
+}
+.alert a, .alert .alert-link, .alert.alert-default a, .alert.alert-default .alert-link {
+  color: #ffffff;
+}
+.alert.alert-inverse {
+  background-color: #4558be;
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.alert.alert-inverse a, .alert.alert-inverse .alert-link {
+  color: contrast-color(#3f51b5, #000000, #ffffff);
+}
+.alert.alert-primary {
+  background-color: #a72abd;
+  color: #ffffff;
+}
+.alert.alert-primary a, .alert.alert-primary .alert-link {
+  color: #ffffff;
+}
+.alert.alert-success {
+  background-color: #55b559;
+  color: #ffffff;
+}
+.alert.alert-success a, .alert.alert-success .alert-link {
+  color: #ffffff;
+}
+.alert.alert-info {
+  background-color: #91d0ec;
+  color: #ffffff;
+}
+.alert.alert-info a, .alert.alert-info .alert-link {
+  color: #ffffff;
+}
+.alert.alert-warning {
+  background-color: #fbc53c;
+  color: #ffffff;
+}
+.alert.alert-warning a, .alert.alert-warning .alert-link {
+  color: #ffffff;
+}
+.alert.alert-danger {
+  background-color: #f55145;
+  color: #ffffff;
+}
+.alert.alert-danger a, .alert.alert-danger .alert-link {
+  color: #ffffff;
+}
+.alert-info, .alert-danger, .alert-warning, .alert-success {
+  color: #ffffff;
+}
+.alert-default a, .alert-default .alert-link {
+  color: rgba(0,0,0, 0.87);
+}
+.alert .alert-icon {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.alert .alert-icon i {
+  /* margin-top: -7px;
+  top: 5px; */
+  position: relative;
+}
+
+.progress {
+  height: 4px;
+  border-radius: 0;
+  box-shadow: none;
+  background: #DDDDDD;
+}
+
+.progress.cor1 .progress-bar {
+  background-color: gray;
+}
+.progress.cor2 .progress-bar {
+  background-color: rgb(5, 78, 78);
+}
+.progress.cor3 .progress-bar {
+  background-color: red;
+}
+
+.progress .progress-bar {
+  box-shadow: none;
+}
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+  background-color: #1e9dde;
+}
+.progress .progress-bar.progress-bar-inverse {
+  background-color: red;
+}
+.progress .progress-bar.progress-bar-primary {
+  background-color: #1e9dde;
+}
+.progress .progress-bar.progress-bar-success {
+  background-color: #4caf50;
+}
+.progress .progress-bar.progress-bar-info {
+  background-color: #03a9f4;
+}
+.progress .progress-bar.progress-bar-warning {
+  background-color: #fbc02d;
+}
+.progress .progress-bar.progress-bar-danger {
+  background-color: #f44336;
+}
+.progress.progress-line-primary {
+  background: rgba(156, 39, 176, 0.2);
+}
+.progress.progress-line-info {
+  background: rgba(3, 169, 244, 0.2);
+}
+.progress.progress-line-success {
+  background: rgba(76, 175, 80, 0.2);
+}
+.progress.progress-line-warning {
+  background: rgba(251, 192, 45, 0.2);
+}
+.progress.progress-line-danger {
+  background: rgba(244, 67, 54, 0.2);
+}
+
+h1, .h1 {
+  font-size: 3.8em;
+  line-height: 1.15em;
+}
+
+h2, .h2 {
+  font-size: 1.6em;
+}
+
+h3, .h3 {
+  font-size: 1.825em;
+  line-height: 1.4em;
+  margin: 20px 0 10px;
+}
+
+h4, .h4 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+h5, .h5 {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+
+h6, .h6 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h5,
+.footer-big h4,
+.media .media-heading {
+  font-weight: 700;
+}
+.title,
+.title a,
+.card-title,
+.card-title a,
+.info-title,
+.info-title a,
+.footer-brand,
+.footer-brand a,
+.footer-big h5,
+.footer-big h5 a,
+.footer-big h4,
+.footer-big h4 a,
+.media .media-heading,
+.media .media-heading a {
+  color: #3C4858;
+  text-decoration: none;
+}
+
+h2.title {
+  margin-bottom: 30px;
+}
+
+.description,
+.card-description,
+.footer-big p {
+  color: #999999;
+}
+
+.text-warning {
+  color: #fbc02d;
+}
+
+.text-primary {
+  color: #1e9dde;
+}
+
+.text-danger {
+  color: #f44336;
+}
+
+.text-success {
+  color: #4caf50;
+}
+
+.text-info {
+  color: #03a9f4;
+}
+
+.nav-tabs {
+    background: #1e9dde;
+    border: 0;
+    border-radius: 3px;
+    padding: 0 0px;
+}
+.nav-tabs > li > a {
+    color: #FFFFFF;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+  border: 0;
+}
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+  background-color: transparent;
+  border: 0 !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+.nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav-tabs > li .material-icons {
+  margin: -1px 5px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color .1s .2s;
+}
+
+.popover, .tooltip-inner {
+  color: #555555;
+  line-height: 1.5em;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.popover {
+  padding: 0;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.popover.left > .arrow, .popover.right > .arrow, .popover.top > .arrow, .popover.bottom > .arrow {
+  border: none;
+}
+
+.popover-title {
+  background-color: #FFFFFF;
+  border: none;
+  padding: 15px 15px 5px;
+  font-size: 1.3em;
+}
+
+.popover-content {
+  padding: 10px 15px 15px;
+  line-height: 1.4;
+}
+
+.tooltip.in {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  -o-transform: translate3d(0, 0px, 0);
+  -ms-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+
+.tooltip {
+  opacity: 0;
+  transition: opacity, transform .2s ease;
+  -webkit-transform: translate3d(0, 5px, 0);
+  -moz-transform: translate3d(0, 5px, 0);
+  -o-transform: translate3d(0, 5px, 0);
+  -ms-transform: translate3d(0, 5px, 0);
+  transform: translate3d(0, 5px, 0);
+}
+.tooltip.left .tooltip-arrow {
+  border-left-color: #FFFFFF;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #FFFFFF;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #FFFFFF;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #FFFFFF;
+}
+
+.tooltip-inner {
+  padding: 10px 15px;
+  min-width: 130px;
+}
+
+.carousel .carousel-control {
+  width: 50%;
+        z-index: 123;
+}
+.carousel .carousel-control.left, .carousel .carousel-control.right {
+  background-image: none;
+}
+.carousel .carousel-control .material-icons,
+.carousel .carousel-control .fas {
+  display: none;
+}
+.carousel .left {
+  cursor: url("../img/arrow-left.png"), default !important;
+}
+.carousel .right {
+  cursor: url("../img/arrow-right.png"), default !important;
+}
+.carousel .carousel-indicators {
+  bottom: 5px;
+}
+.carousel .carousel-indicators li,
+.carousel .carousel-indicators .active {
+  margin: 11px 10px;
+}
+.carousel .carousel-indicators li {
+  background: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+.carousel .carousel-indicators .active {
+  margin-top: 10px;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.carousel .carousel-caption {
+  padding-bottom: 45px;
+}
+.carousel .carousel-caption .material-icons {
+  position: relative;
+  top: 5px;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  border-radius: 3px;
+  color: rgba(0,0,0, 0.87);
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.card .card-height-indicator {
+  margin-top: 100%;
+}
+.card .card-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.card .card-image {
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+}
+.card .card-image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  pointer-events: none;
+}
+.card .card-image .card-image-headline {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+  color: #fff;
+  font-size: 2em;
+}
+.card .content {
+  padding: 15px;
+}
+.card .card-body {
+  height: 30%;
+  padding: 18px;
+}
+.card .card-footer {
+  height: 10%;
+  padding: 18px;
+}
+.card .card-footer button, .card .card-footer a {
+  margin: 0 !important;
+  position: relative;
+  bottom: 25px;
+  width: auto;
+}
+.card .card-footer button:first-child, .card .card-footer a:first-child {
+  left: -15px;
+}
+.card .header {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  border-radius: 3px;
+  padding: 15px 0;
+  background-color: #FFFFFF;
+}
+.card .header-primary {
+  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+.card .header-info {
+  background: linear-gradient(60deg, #29b6f6, #0288d1);
+}
+.card .header-success {
+  background: linear-gradient(60deg, #66bb6a, #388e3c);
+}
+.card .header-warning {
+  background: linear-gradient(60deg, #fdd835, #fbc02d);
+}
+.card .header-danger {
+  background: linear-gradient(60deg, #ef5350, #d32f2f);
+}
+.card [class*="header-"] {
+  color: #FFFFFF;
+}
+
+.card-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-signup .header {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -40px;
+  padding: 20px 0;
+}
+.card-signup .text-divider {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.card-signup .content {
+  padding: 0px 30px 0px 10px;
+}
+.card-signup .checkbox {
+  margin-top: 20px;
+}
+.card-signup .checkbox label {
+  margin-left: 17px;
+}
+.card-signup .checkbox .checkbox-material {
+  padding-right: 12px;
+}
+.card-signup .social-line {
+  margin-top: 15px;
+  text-align: center;
+}
+.card-signup .social-line .btn {
+  color: #FFFFFF;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card-nav-tabs {
+  margin-top: 45px;
+}
+.card-nav-tabs .header {
+  margin-top: -30px;
+}
+.card-nav-tabs .nav-tabs {
+  background: transparent;
+}
+
+.card-plain {
+  background: transparent;
+  box-shadow: none;
+}
+.card-plain .header {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card-plain .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.modal-content {
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 3px;
+  border: none;
+}
+.modal-content .modal-header {
+  border-bottom: none;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+.modal-content .modal-body {
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+.modal-content .modal-footer {
+  border-top: none;
+  padding: 7px;
+}
+.modal-content .modal-footer button {
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: auto;
+}
+.modal-content .modal-footer button.pull-left {
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  left: -5px;
+}
+.modal-content .modal-footer button + button {
+  margin-bottom: 16px;
+}
+.modal-content .modal-body + .modal-footer {
+  padding-top: 0;
+}
+
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.modal .modal-dialog {
+  margin-top: 100px;
+}
+.modal .modal-header .close {
+  color: #555555;
+}
+.modal .modal-header .close:hover, .modal .modal-header .close:focus {
+  opacity: 1;
+  color: #555555;
+}
+.modal-content.jobs {
+    height: 400px;
+}    
+.modal-footer.jobs {
+    position: relative;
+    bottom: 260px;
+    right: 40px;
+}
+.panel {
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.panel > .panel-heading, .panel.panel-default > .panel-heading {
+    background-color: rgb(5, 78, 78);
+}
+.panel.panel-inverse > .panel-heading {
+  background-color: rgb(5, 78, 78);
+}
+.panel.panel-primary > .panel-heading {
+  background-color: #1e9dde;
+}
+.panel.panel-success > .panel-heading {
+  background-color: #4caf50;
+}
+.panel.panel-info > .panel-heading {
+  background-color: #03a9f4;
+}
+.panel.panel-warning > .panel-heading {
+  background-color: #fbc02d;
+}
+.panel.panel-danger > .panel-heading {
+  background-color: #f44336;
+}
+
+[class*="panel-"] > .panel-heading {
+  color: #ffffff;
+  border: 0;
+}
+
+.panel-default > .panel-heading, .panel:not([class*="panel-"]) > .panel-heading {
+    color: rgba(255, 255, 255, 1);
+}
+
+.panel-footer {
+  background-color: #eeeeee;
+}
+
+hr.on-dark {
+  color: #1a1a1a;
+}
+hr.on-light {
+  color: white;
+}
+@media (-webkit-min-device-pixel-ratio: 0.75), (min--moz-device-pixel-ratio: 0.75), (-o-device-pixel-ratio: 3 / 4), (min-device-pixel-ratio: 0.75), (min-resolution: 0.75dppx), (min-resolution: 120dpi) {
+  hr {
+    height: 0.75px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 1), (min--moz-device-pixel-ratio: 1), (-o-device-pixel-ratio: 1), (min-device-pixel-ratio: 1), (min-resolution: 1dppx), (min-resolution: 160dpi) {
+  hr {
+    height: 1px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 1.33), (min--moz-device-pixel-ratio: 1.33), (-o-device-pixel-ratio: 133 / 100), (min-device-pixel-ratio: 1.33), (min-resolution: 1.33dppx), (min-resolution: 213dpi) {
+  hr {
+    height: 1.333px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx), (min-resolution: 240dpi) {
+  hr {
+    height: 1.5px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-device-pixel-ratio: 2 / 1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 380dpi) {
+  hr {
+    height: 2px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min--moz-device-pixel-ratio: 3), (-o-device-pixel-ratio: 3 / 1), (min-device-pixel-ratio: 3), (min-resolution: 3dppx), (min-resolution: 480dpi) {
+  hr {
+    height: 3px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 4), (min--moz-device-pixel-ratio: 4), (-o-device-pixel-ratio: 4 / 1), (min-device-pixel-ratio: 3), (min-resolution: 4dppx), (min-resolution: 640dpi) {
+  hr {
+    height: 4px;
+  }
+}
+
+.img-thumbnail {
+    border-radius: 96px;
+}
+
+.img-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+*:focus {
+  outline: 0;
+}
+
+a:focus, a:active,
+button:active, button:focus, button:hover,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: 0 !important;
+}
+
+
+.section {
+  padding: 70px 0;
+}
+
+.section-navbars {
+  padding-bottom: 0;
+}
+
+.section-full-screen {
+  height: 100vh;
+}
+
+.section-signup {
+  padding-top: 20vh;
+}
+
+.noUi-target,
+.noUi-target * {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -ms-touch-action: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.noUi-stacking .noUi-handle {
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  transition: left 0.3s, top 0.3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+.noUi-horizontal {
+  height: 10px;
+}
+
+.noUi-handle {
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  left: -10px;
+  top: -6px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all 0.2s ease-out;
+  border: 1px solid;
+  background: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.noUi-vertical .noUi-handle {
+  margin-left: 5px;
+  cursor: ns-resize;
+}
+
+.noUi-horizontal.noUi-extended {
+  padding: 0 15px;
+}
+
+.noUi-horizontal.noUi-extended .noUi-origin {
+  right: -15px;
+}
+
+.noUi-background {
+  height: 2px;
+  margin: 20px 0;
+}
+
+.noUi-origin {
+  margin: 0;
+  border-radius: 0;
+  height: 2px;
+  background: #c8c8c8;
+}
+.noUi-origin[style^="left: 0"] .noUi-handle {
+  background-color: #fff;
+  border: 2px solid #c8c8c8;
+}
+.noUi-origin[style^="left: 0"] .noUi-handle.noUi-active {
+  border-width: 1px;
+}
+
+.noUi-target {
+  border-radius: 3px;
+}
+
+.noUi-horizontal {
+  height: 2px;
+  margin: 15px 0;
+}
+
+.noUi-vertical {
+  height: 100%;
+  width: 2px;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.noUi-handle.noUi-active {
+  transform: scale3d(2, 2, 1);
+}
+
+[disabled].noUi-slider {
+  opacity: 0.5;
+}
+
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+.slider {
+  background: #c8c8c8;
+}
+
+.slider.noUi-connect {
+  background-color: #1e9dde;
+}
+.slider .noUi-handle {
+  border-color: #1e9dde;
+}
+.slider.slider-info .noUi-connect, .slider.slider-info.noUi-connect {
+  background-color: #03a9f4;
+}
+.slider.slider-info .noUi-handle {
+  border-color: #03a9f4;
+}
+.slider.slider-success .noUi-connect, .slider.slider-success.noUi-connect {
+  background-color: #4caf50;
+}
+.slider.slider-success .noUi-handle {
+  border-color: #4caf50;
+}
+.slider.slider-warning .noUi-connect, .slider.slider-warning.noUi-connect {
+  background-color: #fbc02d;
+}
+.slider.slider-warning .noUi-handle {
+  border-color: #fbc02d;
+}
+.slider.slider-danger .noUi-connect, .slider.slider-danger.noUi-connect {
+  background-color: #f44336;
+}
+.slider.slider-danger .noUi-handle {
+  border-color: #f44336;
+}
+
+.dropdownjs::after {
+  right: 5px;
+  top: 3px;
+  font-size: 25px;
+  position: absolute;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  content: "\e5c5";
+  pointer-events: none;
+  color: #757575;
+}
+
+/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+/*
+ *
+ *   SCSS by Creative Tim
+ *   http://www.creative-tim.com
+ *
+ */
+.datepicker {
+  top: 0;
+  left: 0;
+  padding: 4px;
+  margin-top: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker > div {
+  display: none;
+}
+.datepicker table {
+  width: 100%;
+  margin: 0;
+}
+.datepicker td,
+.datepicker th {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker td {
+  text-align: center;
+}
+.datepicker td p {
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 50%;
+  height: 29px;
+  line-height: 29px;
+  margin: 3px 0 8px;
+  width: 29px;
+}
+.datepicker td :hover {
+  cursor: pointer;
+}
+.datepicker th {
+  font-weight: 500;
+}
+.datepicker th.switch-datepicker {
+  font-size: 1em;
+}
+.datepicker .prev p,
+.datepicker .next p {
+  font-size: 1.825em;
+}
+.datepicker p:hover {
+  background: #eeeeee;
+}
+.datepicker .day.disabled {
+  color: #eeeeee;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999999;
+  border-top: 0;
+}
+.datepicker td.active p,
+.datepicker td.active:hover p {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #1e9dde;
+}
+.datepicker td.primary p,
+.datepicker td.primary:hover p {
+  background-color: #1e9dde;
+}
+.datepicker td.info p,
+.datepicker td.info:hover p {
+  background-color: #03a9f4;
+}
+.datepicker td.success p,
+.datepicker td.success:hover p {
+  background-color: #4caf50;
+}
+.datepicker td.warning p,
+.datepicker td.warning:hover p {
+  background-color: #fbc02d;
+}
+.datepicker td.danger p,
+.datepicker td.danger:hover p {
+  background-color: #f44336;
+}
+.datepicker span {
+  display: block;
+  width: 55px;
+  height: 54px;
+  line-height: 54px;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker span.old {
+  color: #999999;
+}
+.datepicker span.active, .datepicker span.active:focus, .datepicker span.active:hover, .datepicker span.active:active {
+  background-color: #1e9dde;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.datepicker span.active {
+  color: #FFFFFF;
+}
+.datepicker span:hover {
+  background-color: #EEEEEE;
+}
+.datepicker span.primary,
+.datepicker span.primary:hover {
+  background-color: #1e9dde;
+}
+.datepicker span.info,
+.datepicker span.info:hover {
+  background-color: #03a9f4;
+}
+.datepicker span.success,
+.datepicker span.success:hover {
+  background-color: #4caf50;
+}
+.datepicker span.warning,
+.datepicker span.warning:hover {
+  background-color: #fbc02d;
+}
+.datepicker span.danger,
+.datepicker span.danger:hover {
+  background-color: #f44336;
+}
+.datepicker th.switch-datepicker {
+  width: 145px;
+}
+.datepicker th.next,
+.datepicker th.prev {
+  font-size: 21px;
+}
+.datepicker thead tr:first-child th {
+  cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+.datepicker.dropdown-menu {
+  border-radius: 3px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+  margin-top: -20px;
+  opacity: 0;
+  visibility: hidden;
+}
+.datepicker.dropdown-menu.open {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 1px;
+}
+.datepicker .table-condensed > tbody > tr > td {
+  padding: 2px;
+}
+.datepicker .table-condensed > thead > tr > th {
+  padding: 0;
+}
+
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.datepicker-months thead {
+  padding: 0 0 3px;
+  display: block;
+}
+
+.withripple {
+  position: relative;
+}
+
+.ripple-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.ripple {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 100%;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1);
+  transform-origin: 50%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ripple.ripple-on {
+  transition: opacity 0.15s ease-in 0s, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+  opacity: 0.1;
+}
+
+.ripple.ripple-out {
+  transition: opacity 0.1s linear 0s !important;
+  opacity: 0;
+}
+
+.wrapper > .header {
+  min-height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 3;
+}
+
+.main-raised {
+  margin: -60px 30px 0px;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-weight: 700;
+    color: #3C4858;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2.title {
+  margin-bottom: 30px;
+}
+
+.description {
+  color: #999999;
+}
+
+.header-filter {
+  position: relative;
+}
+.header-filter:after {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header-filter .container {
+  z-index: 2;
+  position: relative;
+}
+
+.gallery .image img {
+  width: 100%;
+}
+
+.features {
+  padding: 80px 0 0;
+}
+
+.team {
+  margin-top: 80px;
+}
+.team .team-player .title {
+  margin: 30px auto;
+}
+.team .team-player img {
+  max-width: 170px;
+}
+
+.nav-align-center {
+  text-align: center;
+}
+.nav-align-center .nav-pills {
+  display: inline-block;
+}
+
+.navbar-absolute {
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 1031;
+}
+
+.index-page .wrapper > .header {
+  height: 90vh;
+}
+.index-page .brand {
+  margin-top: 30vh;
+  color: #FFFFFF;
+  text-align: center;
+}
+.index-page .brand h1 {
+  font-size: 4.8em;
+  font-weight: 600;
+}
+.index-page .brand h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  max-width: 400px;
+  margin: 10px auto 0;
+}
+.index-page .section-basic {
+  padding-top: 15px;
+}
+.index-page .header-filter:after {
+  background: rgba(101, 47, 142, 0.64);
+  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+}
+
+.landing-page .header {
+  height: 100vh;
+}
+.landing-page .header .container {
+  padding-top: 26vh;
+  color: #FFFFFF;
+}
+.landing-page .header .share {
+  margin-top: 150px;
+}
+.landing-page .header h1 {
+  font-weight: 600;
+}
+.landing-page .header .title {
+  color: #FFFFFF;
+}
+.landing-page .wrapper {
+  background: #CCCCCC;
+}
+
+.profile-page .header {
+  height: 380px;
+  background-position: top center;
+}
+.profile-page .profile {
+  text-align: center;
+}
+.profile-page .profile img {
+  max-width: 160px;
+  margin: -80px auto 0;
+}
+.profile-page .description {
+  margin: 30px auto 0;
+  max-width: 600px;
+}
+.profile-page .profile-tabs {
+  margin-top: 60px;
+}
+.profile-page .gallery {
+  margin-top: 45px;
+  padding-bottom: 50px;
+}
+.profile-page .gallery img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.signup-page .wrapper > .header {
+  min-height: 100vh;
+}
+.signup-page .wrapper .card-signup {
+  margin: 160px 0 40px;
+}
+.signup-page .footer .copyright,
+.signup-page .footer a {
+  color: #FFFFFF;
+}
+
+.landing-page .navbar-transparent,
+.profile-page .navbar-transparent,
+.signup-page .navbar-transparent,
+.index-page .navbar-transparent {
+  padding-top: 25px;
+}
+
+@media (max-width: 991px) {
+  .landing-page .header {
+    height: auto;
+    min-height: 100vh;
+  }
+  .landing-page .header .container {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .footer .copyright {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    float: none !important;
+    width: 100%;
+  }
+
+  .navbar.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    border-radius: 0;
+  }
+
+  .main-raised {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+
+.schedule .schedule-picker,
+.schedule .scheduled-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.schedule .schedule-picker.schedule-past {
+  cursor: not-allowed;
+  position: relative;
+}
+
+.schedule .schedule-picker.schedule-past::after {
+  color: red;
+  content: '\f05e';
+  font-family: 'FontAwesome';
+  font-size: 42px;
+  height: 100%;
+  left: 0;
+  line-height: 74px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.schedule .scheduled-item {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  cursor: default;
+  padding: 10px 15px;
+}
+
+.schedule .schedule-picker input[type="radio"] {
+  display: none;
+}
+
+.schedule .schedule-picker .date-option,
+.schedule .scheduled-item .date-option {
+  background-color: #fff;
+  border: 0 solid #eee;
+  border-bottom-width: 2px;
+  border-left-width: 1px;
+  border-right-width: 2px;
+  border-top-width: 1px;
+  display: inline-block;
+  opacity: 0.20;
+  width: 50px;
+}
+
+.schedule .schedule-picker .date-option .month,
+.schedule .scheduled-item .date-option .month {
+  background-color: #ba203d;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.schedule .schedule-picker .date-option .day,
+.schedule .scheduled-item .date-option .day {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 35px;
+}
+
+.schedule .schedule-picker .time-option,
+.schedule .scheduled-item .time-option {
+  background-color: #222;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  opacity: 0.20;
+  padding: 8px;
+  vertical-align: -16px;
+}
+
+.schedule .schedule-picker .time-option .hour,
+.schedule .schedule-picker .time-option .minute,
+.schedule .schedule-picker .time-option .meridian,
+.schedule .scheduled-item .time-option .hour,
+.schedule .scheduled-item .time-option .minute,
+.schedule .scheduled-item .time-option .meridian {
+  background-color: #444;
+  width: 22px;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.schedule .schedule-picker .time-option .hour::after,
+.schedule .schedule-picker .time-option .minute::after,
+.schedule .schedule-picker .time-option .meridian::after,
+.schedule .scheduled-item .time-option .hour::after,
+.schedule .scheduled-item .time-option .minute::after,
+.schedule .scheduled-item .time-option .meridian::after {
+  border: 0 solid rgba(0, 0, 0, 0.25);
+  border-bottom-width: 1px;
+  content: '';
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 100%;
+}
+
+.schedule .schedule-picker .time-option .hour::before,
+.schedule .schedule-picker .time-option .minute::before,
+.schedule .schedule-picker .time-option .meridian::before,
+.schedule .scheduled-item .time-option .hour::before,
+.schedule .scheduled-item .time-option .minute::before,
+.schedule .scheduled-item .time-option .meridian::before {
+  border-left-width: 1px;
+  border: 0 solid rgba(0, 0, 0, 0.25);
+  content: '';
+  display: none;
+  height: 100%;
+  left: 50%;
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+}
+
+.schedule .schedule-picker.picked::before {
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ddd;
+  border-top: 10px solid transparent;
+  content: '';
+  height: 0;
+  left: 0;
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+.schedule .schedule-picker.picked::after {
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ddd;
+  border-top: 10px solid transparent;
+  content: '';
+  height: 0;
+  right: 0;
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+.schedule .schedule-picker.picked .date-option,
+.schedule .schedule-picker.picked .time-option,
+.schedule .scheduled-item .date-option,
+.schedule .scheduled-item .time-option {
+  opacity: 1;
+}
+
+.schedule-picker {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.scheduled-item + p {
+  margin-top: 15px;
+}
+
+.label.label-schedule {
+  margin-right: 10px;
+  vertical-align: 2px;
+}
+
+.tarja-azul {
+    border-top: 6px solid #3283de;
+    width: 100%;
+    height: 110px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.tarja-azul h1 img {
+    margin-top: 10px;
+    padding: 0px 0px;
+    margin-left: 10px;
+}
+.slogan {
+    margin-top: 24px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: inherit;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+
+    .lead {
+        font-size: 21px;
+        font-weight: 700;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+}
+
+/* Header Nav Bar */
+
+.tarja-azul {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid rgb(5, 78, 78);
+  border-top: 0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 99999;
+}
+
+.banner-perfil-ibvirtual {
+  width: 100%;
+  background-image: url("../img/banner.png");
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px 30px;
+}
+
+a.logo img {
+  padding-top: 11px;
+}
+
+.header-nav {
+  height: 80px;
+  user-select: none;
+  color: rgb(5, 78, 78);
+}
+
+.header-nav a {
+  color: rgb(5, 78, 78);
+}
+
+.header-nav a:hover, .header-nav a:focus, .header-nav a:active {
+  text-decoration: none;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  width:100%;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+  padding-top: 18px;
+  /* margin-left: 30px; */
+}
+
+.header-nav ul li.header-profile {
+  margin-left: 15px;
+}
+
+.header-nav ul li.header-profile .dropdown {
+  padding-left: 15px;
+  border-left: 2px solid;
+}
+
+.header-nav ul li:last-child {
+  /* margin-left: 18px; */
+}
+
+.header-nav ul li i {
+  font-size: 25px;
+}
+
+.header-nav ul li span :not(.test-user-time) {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 992px) {
+  .tarja-azul {
+    position: fixed;
+    height: 60px;
+  }
+
+  .tarja-azul .logo img {
+    width: 120px;
+  }
+
+  a.logo img {
+   
+   
+    width: 180px !important;
+}
+
+  .header-nav {
+    height: 60px;
+  }
+
+  /* .header-nav ul {
+  } */
+
+  .header-nav ul li {
+    /* display: none !important; */
+    padding-top: 10px;
+  }
+
+  .header-nav ul li:nth-last-child(-n+2) {
+    display: inline-block;
+  }
+
+  .header-nav ul li.header-profile .dropdown {
+    border: 0;
+  }
+
+  .header-nav ul li a i {
+    font-size: 20px;
+  }
+
+  .header-nav ul li a span {
+    font-size: 12px;
+  }
+
+  .banner-perfil-ibvirtual {
+    padding-top: 160px;
+  }
+
+  #side-menu ul a li.responsive{
+    display: list-item !important;
+  }
+}
+
+/* Fim Header Nav Bar */
+
+/* Side Menu */
+
+#side-menu {
+  position: fixed;
+  width: 320px;
+  height: calc(100vh - 80px);
+  background-color: #ebebeb;
+  top: 80px;
+  right: -320px;
+  z-index: 999999;
+  transition: right 0.2s;
+  overflow-x: hidden;
+  padding: 0 0 25px 0;
+}
+
+#side-menu.active {
+  right: 0;
+}
+
+#menu-overflow {
+  position: fixed;
+  z-index: 999998;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+#side-menu a:hover, #side-menu a:focus, #side-menu a:active {
+  text-decoration: none;
+}
+
+#side-menu .close-side-menu {
+  position: fixed;
+  width: 321px;
+  height: 30px;
+  background-color: #EAEAEA;
+  z-index: 999999;
+  border-bottom: 1px solid #ccc;
+}
+
+#side-menu .close-side-menu .close-menu-button {
+  font-size: 34px;
+  color: black;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#side-menu ul {
+  width: 275px;
+  margin: 35px auto 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  z-index: 99999;
+}
+
+#side-menu ul a {
+  color: #555;
+}
+
+
+#side-menu ul a li.responsive{
+  display: none;
+}
+
+#side-menu ul a li {
+  padding: 16px;
+  border-color: transparent;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  margin: 0;
+}
+
+#side-menu ul a li:hover {
+  background-color: #f5f5f5;
+}
+
+#side-menu ul a li .menu-icon {
+  display: inline-block;
+  width: 27px;
+  text-align: center;
+}
+
+#side-menu ul a:first-child li {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#side-menu ul a:last-child li {
+  border-bottom: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#side-menu ul a li i {
+  color: rgb(5, 78, 78);
+  font-size: 1.9em;
+}
+
+#side-menu ul a li span {
+  position: absolute;
+  left: 62px;
+  font-size: 1em;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  #side-menu {
+    width: 85%;
+    right: -85%;
+    top: 60px;
+    height: calc(100vh - 60px);
+  }
+
+  #side-menu.active {
+    right: 0;
+  }
+
+  #side-menu .close-side-menu {
+    width: 100%;
+    height: 50px;
+    display: none;
+  }
+
+  #side-menu .close-side-menu .close-menu-button {
+    font-size: 50px;
+    right: 5%;
+    transform: translate(-50%, -50%);
+  }
+
+  #side-menu ul {
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  #menu-overflow {
+    top: 60px;
+  }
+}
+
+/* Fim Side Menu */
+
+.list-group {
+    margin-top: 20px;
+}
+
+.panel-title a, .panel-title a:hover, .panel-title a:focus {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.tarja-azul h1 {
+    margin-top: 3px;
+}
+
+.foto-perfil {
+    margin-top: 40px;
+}
+
+.margem-perfil {
+    margin-top: 40px;
+}
+
+.txt-nome {
+    font-size: 20px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #ffffff;
+    letter-spacing: 0px;
+    line-height: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 992px){
+  .txt-nome{
+    color: #000 !important;
+    font-weight: bold;
+	}
+}
+
+.txt-banner-section {
+    font-size: 30px;
+    /* font-weight: 700; */
+    margin-top: 0px;
+    color: rgb(5, 78, 78);
+    letter-spacing: 0px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.txt-email{
+    font-size:14px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+.txt-telefone{
+    font-size:16px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+.txt-last-login{
+    font-size:16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-justified>li {
+    display: inline;
+    /* width: 1%; */
+}
+
+.nav>li>a {
+    position: relative;
+    padding: 15px 36px;
+}
+
+.txt-fases{
+    /* font- */
+    border: 0;
+    size: 11px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 13px;
+    padding: 19px;
+    display: inline-block;
+    min-width: 160px;
+    text-align: center;
+    position: relative;
+    color: #8a8a8a;
+}
+
+.menu li a {
+    color: #b0b4c1;
+}
+
+.telefone {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.bold{
+    font-weight: 900
+}
+
+/* === NOVA HOME === */
+.fases {
+  height: 513px;
+}
+
+.box-fases {
+  display: inline-block;
+  height: 100%;
+  width: 32%;
+  background-color: #ffffff;
+  transform: scale(1);
+  box-shadow: 0px 0px 70px -30px #000000;
+  transition: .5s ease;
+  text-decoration: none !important;
+  position: absolute;
+  left: 0;
+  right: auto;
+  cursor: pointer;
+}
+
+.box-fases.cor1.start {
+  left: 0;
+  z-index: 20;
+  transition: .5s ease;
+}
+
+.box-fases.cor2.start {
+  left: 34%;
+  z-index: 20;
+  transition: .5s ease;
+}
+
+.box-fases.cor3.start {
+  left: 68%;
+  z-index: 20;
+  transition: .5s ease;
+}
+
+.box-fases.ativo {
+  z-index: 500;
+  transition: .5s ease;
+  background-color: #f3f3f3;
+}
+
+.box-fases.cor1.ativo .titulo-fases { background-color: gray; }
+.box-fases.cor2.ativo .titulo-fases { background-color: rgb(5, 78, 78); }
+.box-fases.cor3.ativo .titulo-fases { background-color: red; }
+
+.box-fases .titulo-fases i {
+  display: none;
+  position: absolute;
+  left: 10px;
+}
+
+.box-fases.ativo .titulo-fases i {
+  display: block;
+}
+
+.box-fase .progress-circle {
+  position: absolute;
+  right: 0;
+}
+
+.box-fase .progress-circle span {
+  color: #999;
+}
+
+.box-fase .progress-circle .c100 span {
+  top: -6px;
+}
+
+.box-fase .progress-circle span.progress-concluded {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 65px;
+  z-index: 1;
+}
+
+.box-fase .txt-fase {
+  height: 130px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 30px;
+  border: 0;
+}
+
+.fases-highlight {
+  left: 0;
+  width: 32%;
+  height: 100%;
+  transition: .5s ease;
+  position: absolute;
+  z-index: 10;
+  transition-delay: 0s;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.fases-highlight.ativo {
+  left: 32%;
+  width: 68%;
+  transition-delay: .5s;
+  opacity: 1;
+}
+
+.fases-highlight .highlight-header {
+  position: relative;
+  height: 50px;
+}
+
+.fases-highlight.cor1 .highlight-header { background-color: gray; }
+.fases-highlight.cor2 .highlight-header { background-color: rgb(5, 78, 78); }
+.fases-highlight.cor3 .highlight-header { background-color: red; }
+
+.fases-highlight .highlight-header .titulo-fases {
+  width: initial;
+  height: initial;
+  max-width: 75%;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  transition: .5s ease;
+  background-color: initial;
+  position: relative;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fases-highlight .highlight-header .num-tasks {
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fases-highlight .can-show-highlights {
+  overflow-y: auto;
+  height: calc(100% - 50px - 58px - 10%);
+}
+
+.fases-highlight .txt-fase {
+  width: 90%;
+  border: 0;
+  margin-top: 0px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  transition-delay: 1s;
+  padding-top: 10px;
+}
+
+.fases-highlight.ativo .txt-fase {
+  opacity: 1;
+}
+
+.fases-highlight .tit-fase {
+  margin-left: 30px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.fases-highlight .all-highlights {
+  margin: 30px 30px 0 30px;
+}
+
+.fases-highlight .all-highlights .highlight-item {
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  height: 120px;
+  max-height: 120px;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 30px -10px;
+  transition: opacity 0.5s ease;
+  transition-delay: 0s;
+  display: inline-block;
+  width: 32%;
+  opacity: 0;
+  position: relative;
+}
+
+.fases-highlight .all-highlights .highlight-item i.check {
+  display: none;
+}
+
+.fases-highlight .all-highlights .highlight-item.clicked i.check {
+  position: absolute;
+  font-size: 30px;
+  right: -5px;
+  top: -16px;
+  color: #0b0;
+  display: block;
+  z-index: 2;
+}
+
+.fases-highlight.ativo .all-highlights .highlight-item { opacity: 1; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-1  { transition-delay: 0.8s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-2  { transition-delay: 0.9s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-3  { transition-delay: 1.0s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-4  { transition-delay: 1.1s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-5  { transition-delay: 1.2s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-6  { transition-delay: 1.3s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-7  { transition-delay: 1.4s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-8  { transition-delay: 1.5s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-9  { transition-delay: 1.6s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-10 { transition-delay: 1.7s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-11 { transition-delay: 1.8s; }
+.fases-highlight.ativo .all-highlights .highlight-item.item-12 { transition-delay: 1.9s; }
+
+.fases-highlight .all-highlights .highlight-item a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+
+.fases-highlight .all-highlights .highlight-item a:hover,
+.fases-highlight .all-highlights .highlight-item a:focus {
+  text-decoration: none;
+}
+
+.fases-highlight .all-highlights .highlight-item a i {
+  font-size: 30px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fases-highlight .all-highlights .highlight-item a p {
+  margin: 0;
+  font-size: 10px;
+  left: 80px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  max-width: 60%;
+  display: table;
+}
+
+.cor1 .highlight-item a i { color: rgb(73, 72, 72); }
+.cor2 .highlight-item a i { color: rgb(73, 72, 72); }
+.cor3 .highlight-item a i { color: rgb(73, 72, 72); }
+
+.fases-highlight .all-highlights .highlight-item:hover {
+  transition-delay: 0s;
+  border: 1px solid #ddd;
+}
+
+.fases-highlight .all-highlights .highlight-item.clicked {
+  border: 1px solid #dedede;
+  background-color: #dedede;
+}
+
+.fases-highlight .see-more-button {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 90%;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.fases-highlight a       .see-more-button { color: #fff; }
+.fases-highlight a:hover .see-more-button { text-decoration: none; }
+
+.fases-highlight .see-more-button.color1 { background-color: rgb(95, 95, 95); }
+.fases-highlight .see-more-button.color2 { background-color: rgb(3, 71, 71); }
+.fases-highlight .see-more-button.color3 { background-color: rgb(224, 5, 5); }
+
+@media screen and (max-width: 992px) {
+
+  .fases { height: 100%; }
+
+  .box-fases {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .box-fases.cor1.start { left: auto; }
+  .box-fases.cor2.start { left: auto; }
+  .box-fases.cor3.start { left: auto; }
+
+  .fases-highlight {
+    width: 100%;
+    height: 0;
+    left: auto;
+    right: auto;
+    transition-delay: 0s;
+    transition: 0s;
+    position: relative;
+    display: none;
+  }
+
+  .fases-highlight.ativo {
+    left: auto;
+    width: 100%;
+    transition-delay: 0s;
+    transition: 0s;
+    height: 77em;
+    display: block;
+  }
+
+  .fases-highlight .txt-fase {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .fases-highlight .tit-fase {
+    text-align: center;
+    margin: 40px auto 0;
+    padding: 0 10px;
+  }
+
+  .fases-highlight .titulo-fases {
+    text-transform: none;
+    padding-right: 80px;
+    padding-left: 20px;
+  }
+
+  .fases-highlight .all-highlights {
+    margin: 30px;
+    max-height: 660px;
+  }
+
+  .fases-highlight .all-highlights .highlight-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .fases-highlight .see-more-button {
+    bottom: 30px;
+  }
+}
+
+
+.tasklist-fases .task-check {
+  width: 100%;
+  border-top: 1px solid #c7c7c7;
+  position: relative;
+  padding: 0;
+  height: 39px;
+}
+
+.tasklist-fases .task-check:last-child {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.box-fases       .tasklist-fases .task-check:hover { background-color: #f3f3f3; }
+.box-fases.ativo .tasklist-fases .task-check:hover { background-color: #e9e9e9; }
+
+.box-fases.cor1 .tasklist-fases .task-check.ativo { background-color: rgb(107, 65, 65); }
+.box-fases.cor2 .tasklist-fases .task-check.ativo { background-color: rgb(18, 95, 95); }
+.box-fases.cor3 .tasklist-fases .task-check.ativo { background-color: rgb(252, 42, 42); }
+
+.box-fases.cor1 .tasklist-fases .task-check.ativo:hover { background-color: rgb(167, 68, 68); }
+.box-fases.cor2 .tasklist-fases .task-check.ativo:hover { background-color: rgb(11, 87, 87); }
+.box-fases.cor3 .tasklist-fases .task-check.ativo:hover { background-color: rgb(245, 18, 18); }
+
+.box-fases .tasklist-fases .task-check.ativo a { color: #fff; }
+.box-fases .tasklist-fases .task-check.ativo i { color: #fff; }
+
+.tasklist-fases .task-check a {
+  padding-left: 50px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.tasklist-fases .task-check a:hover  { text-decoration: none; }
+.tasklist-fases .task-check a:focus  { text-decoration: none; }
+.tasklist-fases .task-check a:active { text-decoration: none; }
+
+.tasklist-fases .task-check .task-icon {
+  position: relative;
+  height: 100%;
+  width: 50px;
+}
+
+.tasklist-fases .task-check i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.tasklist-fases .task-check i.plus {
+  position: absolute;
+  right: 10px;
+  left: inherit;
+  font-size: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tasklist-fases .task-check i.cor1 { color: gray; }
+.tasklist-fases .task-check i.cor2 { color: rgb(5, 78, 78); }
+.tasklist-fases .task-check i.cor3 { color: red; }
+
+
+/* ARROWS FOR NEW HOME */
+
+.up-triangle.white {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
+  transform: translate(-50%, -100%);
+  transition: left 1s ease;
+  left: -50%;
+}
+
+/* FIM ARROWS FOR NEW HOME */
+
+/* === FIM NOVA HOME === */
+
+.titulo-fases {
+    width: 100%;
+    height: 50px;
+    padding-top: 16px;
+    background-color: gray;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    transition: .5s ease;
+}
+
+.icone-fase {
+    font-size: 70px;
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.tit-fase {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-weight: 900;
+}
+.txt-fase {
+    /* font- */
+    border: 0;
+    size: 10px;
+    color: #000000;
+    border-top: 1px solid #c7c7c7;
+    margin: 20px 30px 0px;
+    padding: 20px 0px 0px;
+    /*height: 160px;*/
+}
+
+.cor2 .titulo-fases{
+    background-color: rgb(5, 78, 78);
+}
+
+.cor3 .titulo-fases {
+    background-color: red;
+}
+
+.titulo-selecoes{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-branco {
+    background-color: #ffffff;
+    padding: 20px 0 20px 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.bola-fase-1{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: #5259c5;
+        margin: 0px 5px;
+        color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+}
+.bola-fase-2{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: #3480dc;
+    margin: 0px 5px;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+}
+.bola-fase-3{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: #15a3a1;
+    margin: 0px 5px;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+}
+
+div .scroll-down-fases {
+  display: inline-block;
+}
+.scroll-down-fases {
+  width: 100%;
+  margin-top: 0.8em;
+  font-size: 3.5em;
+  text-align: center;
+} a.scroll-down-fases {
+  color: silver;
+}a.scroll-down-fases:focus, a.scroll-down-fases :hover{
+  color: grey;
+}
+
+.area-description-text {
+  display:none !important;
+}

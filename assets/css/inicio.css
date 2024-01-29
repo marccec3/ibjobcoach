@@ -1,0 +1,88 @@
+*{
+  font-family: acumin-pro, sans-serif;
+}
+.linea {
+    border-top: 3px solid #094a4c;
+    height: 23px;
+    padding: 1rem;
+    margin: 20px auto 0 auto;
+  }
+  .nosotros{
+      font-size: 3rem;
+      color: #094a4c;
+      font-weight: bold;
+      padding-left: 1rem;
+  }
+  .bg-nosotros{
+      background-color: #f9f6f1;
+  }
+
+  .para-todos{
+      background-color: #000;
+      color: #fff;
+  }
+  .parrafo-out{
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0;
+  }
+  .icot{
+    margin-top:5rem;
+  }
+  .ico img{
+    height: 180px;
+  }
+  .carousel-control-next:hover,.carousel-control-prev:hover{
+    background-color:rgba(32, 32, 32, 0.336);
+  }
+  .gerente img{
+    max-width: 300px;
+  }
+  #scroll-top-link {
+    background-color: rgba(247, 6, 6, 0.8);
+    border-radius: 4px;
+    bottom: 100px;
+    color: white;
+    font-size: 1.5em;
+    height: 36px;
+    line-height: 32px;
+    overflow: hidden;
+    position: fixed;
+    right:30px;
+    text-align: center;
+    width: 36px;
+    z-index: 100;
+  }
+  @media(max-width:1277px){
+    .nosotros{
+        font-size: 2.5rem;
+       text-align: center;
+    }
+    
+  }
+  @media(max-width:992px){
+    .nosotros{
+        font-size: 2rem;
+       text-align: center;
+    }
+    .ico img{
+      height: 140px;
+    }
+  }
+  @media(max-width:767px){
+    .ico{
+      margin-top: 0px;
+    }
+    .parrafo-out{
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+  }
+  }
+  @media(max-width:575px){
+    .parrafo-out{
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+  }
+  }

@@ -1,0 +1,52 @@
+.outer-wrapper {
+  width: 95%;
+  margin: 30px auto 10px;
+}
+
+.outer-wrapper ul {
+  padding: 0;
+}
+
+.owl-item li {
+  text-align: center;
+  list-style: none;
+  /* padding: 15px 0; */
+}
+
+.owl-item a {
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: transparent !important;
+}
+
+.owl-item a:hover,
+.owl-item a:active,
+.owl-item a:focus {
+  text-decoration: none;
+}
+
+.carousel-arrow {
+  position: absolute;
+  font-size: 44px;
+  cursor: pointer;
+  top: 65px;
+  color: #555;
+}
+
+.carousel-arrow.prev {
+  left: 0;
+}
+
+.carousel-arrow.next {
+  right: 0;
+}
+
+@media (max-width: 750px) {
+  .outer-wrapper {
+    width: 100%;
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
+}

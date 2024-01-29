@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    background: dimgrey;
+}
+
+img{
+    width: 585px;
+    height: 585px;
+    position: relative;
+    right: 25px;
+}
+button{
+    border-radius: 15%;
+    position: relative;
+    top: 359px;
+    left: 655px;
+}
+div .modal-body{
+    text-align: center;
+    color: whitesmoke;
+
+}
+div .modal-title{
+    text-align: center;
+   color: whitesmoke;
+}
+
