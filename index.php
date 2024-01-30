@@ -367,11 +367,11 @@ End Google Tag Manager (noscript) -->
         <div class="row ml-1" style="background: linear-gradient(to right, #B2BABB 50%, #E5E7E9 50%);">
             <div class="col-md-9 linea mt-5"></div>
             <div class="col-md-3 text-center">
-                <p class="nosotros">NOSOTROS</p>
+                <p class="nosotros"><span style="color: red;">NOSOTROS</span></p>
             </div>
             <div class="col-md-6 text-center gerente mb-2">
                 <img src="assets/dna/img/learning/negocio-exitoso.png" alt="imagen" class=" pb-1" style="max-width: 650px; margin-top: -50px;">
-                <p class="m-0 font-weight-bold" style="font-size: 20px;">GERENTE</p>
+                <p class="m-0 font-weight-bold" style="font-size: 20px; color: red;">GERENTE</p>
                 <p class="m-0" style="font-size: 18px;">ALDAIR CHICAMA</p>
             </div>
             <div class="col-md-6 row">
